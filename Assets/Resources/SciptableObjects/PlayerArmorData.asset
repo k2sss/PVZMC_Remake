@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e3a9511478098d42a477625eddff79e, type: 3}
+  m_Name: PlayerArmorData
+  m_EditorClassIdentifier: 
+  datas:
+  - ArmorGroupName: "\u94C1\u5957"
+    groups:
+    - ArmorGroupName: "\u94C1\u5934\u76D4"
+      armorType: 0
+      targetItemType: 51
+      bufftype: 
+      ArmorDefence: 2
+      armors:
+      - type: 0
+        ArmorModel: {fileID: 4600670172860431221, guid: dd8dee9816efb714d948915e8cb8e6f0,
+          type: 3}
+    - ArmorGroupName: "\u8D34\u62A4\u7532"
+      armorType: 1
+      targetItemType: 52
+      bufftype: 
+      ArmorDefence: 6
+      armors:
+      - type: 1
+        ArmorModel: {fileID: 8608566340544347561, guid: 25858061e41d33f48bf901ebb8b87ba9,
+          type: 3}
+      - type: 1
+        ArmorModel: {fileID: 3803274340037572890, guid: 5f14cb3e62e9ce04b84c5eade06be814,
+          type: 3}
+      - type: 6
+        ArmorModel: {fileID: 4650344452666215950, guid: 733d1352ca5b9df40a05fd08ac39672e,
+          type: 3}
+      - type: 7
+        ArmorModel: {fileID: 8258767486656122540, guid: 7480970e45fea0842b9ad9bad1f3cf98,
+          type: 3}
+    - ArmorGroupName: "\u94C1\u62A4\u817F"
+      armorType: 2
+      targetItemType: 53
+      bufftype: 
+      ArmorDefence: 5
+      armors:
+      - type: 2
+        ArmorModel: {fileID: 7300200578409122703, guid: 862b2f00125bda548a3ea081c7a3752f,
+          type: 3}
+      - type: 3
+        ArmorModel: {fileID: 7143141065969056132, guid: 0da48ec94a5f99442bc23a4a0b3d6b32,
+          type: 3}
+    - ArmorGroupName: "\u94C1\u9774\u5B50"
+      armorType: 3
+      targetItemType: 54
+      bufftype: 
+      ArmorDefence: 2
+      armors:
+      - type: 4
+        ArmorModel: {fileID: 143627242227073571, guid: 82954ebe6c9cbd048adf50756c1aa615,
+          type: 3}
+      - type: 5
+        ArmorModel: {fileID: 5389277636168168405, guid: d5b09e10ca81a3344933e194452e32e8,
+          type: 3}
+    buffType: 
+  - ArmorGroupName: "\u6CF0\u5766\u5957"
+    groups:
+    - ArmorGroupName: "\u6CF0\u5766\u5934\u76D4"
+      armorType: 0
+      targetItemType: 55
+      bufftype: 
+      ArmorDefence: 3
+      armors:
+      - type: 0
+        ArmorModel: {fileID: 1366835567139452588, guid: f09c90ee152d97a44b4e3b4e7f0485bf,
+          type: 3}
+    - ArmorGroupName: "\u6CF0\u5766\u62A4\u7532"
+      armorType: 1
+      targetItemType: 56
+      bufftype: 
+      ArmorDefence: 7
+      armors:
+      - type: 1
+        ArmorModel: {fileID: 7216961792482473541, guid: 8ebf97359ec82134a942a21c45a16736,
+          type: 3}
+      - type: 1
+        ArmorModel: {fileID: 4299833443184335874, guid: b6f1bc3f874d50c44873af0f5ea6f40f,
+          type: 3}
+      - type: 6
+        ArmorModel: {fileID: 3888408900595307406, guid: 91d17aba7cf7e7a4c8e06b13174c3e19,
+          type: 3}
+      - type: 7
+        ArmorModel: {fileID: 5112497797236431664, guid: cc28cd3e130ff0e4a92b0b760f9e41ca,
+          type: 3}
+    - ArmorGroupName: "\u6CF0\u5766\u62A4\u817F"
+      armorType: 2
+      targetItemType: 57
+      bufftype: 
+      ArmorDefence: 6
+      armors:
+      - type: 2
+        ArmorModel: {fileID: 8836177005727800363, guid: fda31a2d36918724d826f1d0fff9f57c,
+          type: 3}
+      - type: 3
+        ArmorModel: {fileID: 1784102018989617284, guid: 82e00d4be1afe78408def1cbfdd48fce,
+          type: 3}
+    - ArmorGroupName: "\u6CF0\u5766\u9774"
+      armorType: 3
+      targetItemType: 58
+      bufftype: 
+      ArmorDefence: 3
+      armors:
+      - type: 4
+        ArmorModel: {fileID: 8410203545096896833, guid: b33a419458882244e84418dce4d50ee8,
+          type: 3}
+      - type: 5
+        ArmorModel: {fileID: 4954020397674423617, guid: 53beb79e3d4725444a8c08e67e232f5e,
+          type: 3}
+    buffType: 08000000
+  - ArmorGroupName: "\u514B\u82CF\u9C81\u4E4B\u8111"
+    groups:
+    - ArmorGroupName: "\u514B\u82CF\u9C81\u8111"
+      armorType: 0
+      targetItemType: 70
+      bufftype: 0d000000
+      ArmorDefence: 1
+      armors:
+      - type: 0
+        ArmorModel: {fileID: 4324876871081089639, guid: 447ff64c4df776e4690dc7313ee61790,
+          type: 3}
+    buffType: 
+  - ArmorGroupName: "\u5154\u5B50\u5934\u9970"
+    groups:
+    - ArmorGroupName: "\u5154\u5B50\u5934\u9970"
+      armorType: 0
+      targetItemType: 71
+      bufftype: 
+      ArmorDefence: 1
+      armors:
+      - type: 0
+        ArmorModel: {fileID: 8055887352438768507, guid: 26f9cd0436e79f043bd5490b16c64f49,
+          type: 3}
+    buffType: 
+  - ArmorGroupName: "\u7329\u7EA2\u5957"
+    groups:
+    - ArmorGroupName: "\u7329\u7EA2\u5934\u76D4"
+      armorType: 0
+      targetItemType: 85
+      bufftype: 
+      ArmorDefence: 3
+      armors:
+      - type: 0
+        ArmorModel: {fileID: 7058915765442810063, guid: e796db0f6bc56d7449ae53573b1b5b95,
+          type: 3}
+    - ArmorGroupName: "\u7329\u7EA2\u62A4\u7532"
+      armorType: 1
+      targetItemType: 86
+      bufftype: 
+      ArmorDefence: 8
+      armors:
+      - type: 1
+        ArmorModel: {fileID: 5654773865988502350, guid: d63dc778f10a7b546ba3a0ea116d867a,
+          type: 3}
+      - type: 6
+        ArmorModel: {fileID: 2704925772080162365, guid: 9affa38245e642742a48f3217586898f,
+          type: 3}
+      - type: 7
+        ArmorModel: {fileID: 6658279664741258678, guid: cc0d66c3f9ef631458096e40585120dd,
+          type: 3}
+    - ArmorGroupName: "\u7329\u7EA2\u62A4\u817F"
+      armorType: 2
+      targetItemType: 87
+      bufftype: 
+      ArmorDefence: 6
+      armors:
+      - type: 2
+        ArmorModel: {fileID: 8586166741474266388, guid: 9c44d6ae8e04ab0499ac1fbc6cf3c15d,
+          type: 3}
+      - type: 3
+        ArmorModel: {fileID: 8159335161705429859, guid: 995fae2e211eab940af9c950235c7324,
+          type: 3}
+    - ArmorGroupName: "\u7329\u7EA2\u9774"
+      armorType: 3
+      targetItemType: 88
+      bufftype: 
+      ArmorDefence: 3
+      armors:
+      - type: 4
+        ArmorModel: {fileID: 4854698341265691452, guid: 77f49d4819062d540882321f1c1b84ed,
+          type: 3}
+      - type: 5
+        ArmorModel: {fileID: 4519633799725923667, guid: 516ebbeb63981764395922061d450a9d,
+          type: 3}
+    buffType: 0e000000
+  - ArmorGroupName: "\u8D6B\u5C14\u58A8\u65AF\u4E4B\u9774"
+    groups:
+    - ArmorGroupName: "\u8D6B\u5C14\u58A8\u65AF\u4E4B\u9774"
+      armorType: 3
+      targetItemType: 93
+      bufftype: 12000000
+      ArmorDefence: 1
+      armors:
+      - type: 4
+        ArmorModel: {fileID: 7497232215064879897, guid: fed50ab5122cca64e84b63a6da3a8d9f,
+          type: 3}
+      - type: 5
+        ArmorModel: {fileID: 6751715103226471042, guid: 44922f499878dfa48a22572147f33e3b,
+          type: 3}
+    buffType: 

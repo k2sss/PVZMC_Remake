@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91f676217676244488aab0bc10d7c709, type: 3}
+  m_Name: InGameMenuInfo
+  m_EditorClassIdentifier: 
+  list:
+  - SceneName: InGameMenum
+    WorldName: "\u6C99\u6F20"
+    WorldDescrption: "\u9A6C\u52D2\u6208\u58C1"
+    WorldSprite: {fileID: 21300000, guid: 926e02e5d659c5040989ef0aa2f3a3ec, type: 3}
+  - SceneName: InGameMenu_1
+    WorldName: "\u5EAD\u9662"
+    WorldDescrption: "\u8001\u5730\u65B9"
+    WorldSprite: {fileID: 21300000, guid: 5cddef2d20f486243aa2edf362ac0d50, type: 3}
+  - SceneName: InGameMenu_2
+    WorldName: "\u7329\u7EA2\u4E4B\u5730"
+    WorldDescrption: "\u53E4\u795E\u4E4B\u529B\u8BC5\u5492\u7981\u5730"
+    WorldSprite: {fileID: 21300000, guid: c06d633365f6ca1459efc2037f701186, type: 3}

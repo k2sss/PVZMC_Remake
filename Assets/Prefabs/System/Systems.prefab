@@ -1,0 +1,4037 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &219670547992026676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1959480860588870562}
+  - component: {fileID: 2276011708196452078}
+  - component: {fileID: 7766389658403641982}
+  m_Layer: 0
+  m_Name: MusicMgr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1959480860588870562
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219670547992026676}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1737542228716694334}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &2276011708196452078
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219670547992026676}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -5411493265261806557, guid: 10d7bbcb16c537641bb622a59e4d2ac5,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &7766389658403641982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219670547992026676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5a3d1623599fa44a801dca16c66592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1421109580596134308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8154268705846313472}
+  - component: {fileID: 1890937453671275546}
+  m_Layer: 0
+  m_Name: CraftMgr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8154268705846313472
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421109580596134308}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1737542228716694334}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1890937453671275546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421109580596134308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c61c24b167005eb4889164b4fdac5cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CraftInfos:
+  - name: "\u65E0"
+    types: 000000000000000000000000000000000000000000000000000000000000000000000000
+    OutPutType: 0
+    OutPutNum: 0
+    OutPutDurability: 0
+  - name: "\u94C1\u5251\u5408\u6210"
+    types: 0b00000000000000000000000b0000000000000000000000020000000000000000000000
+    OutPutType: 10
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u94C1\u952D\u5408\u6210"
+    types: 0c0000000c0000000c0000000c0000000c0000000c0000000c0000000c0000000c000000
+    OutPutType: 11
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u7BAD"
+    types: 0f0000000000000000000000020000000000000000000000100000000000000000000000
+    OutPutType: 14
+    OutPutNum: 4
+    OutPutDurability: 1
+  - name: "\u5F13"
+    types: 000000000200000011000000020000000000000011000000000000000200000011000000
+    OutPutType: 18
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u67AF\u840E\u7CBE\u534E"
+    types: 000000000100000001000000010000000100000001000000010000000100000000000000
+    OutPutType: 9
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u9AA8\u7C89"
+    types: 140000000000000000000000000000000000000000000000000000000000000000000000
+    OutPutType: 21
+    OutPutNum: 3
+    OutPutDurability: 1
+  - name: "\u5149\u7D20\u6C34\u6676"
+    types: 000000000600000006000000060000000500000006000000060000000600000000000000
+    OutPutType: 7
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u53F6\u7EFF\u7ED3\u6676"
+    types: 060000000500000006000000050000000500000005000000060000000500000006000000
+    OutPutType: 4
+    OutPutNum: 2
+    OutPutDurability: 1
+  - name: "\u6C99\u77F3\u7BAD"
+    types: 080000000000000000000000020000000000000000000000100000000000000000000000
+    OutPutType: 22
+    OutPutNum: 4
+    OutPutDurability: 1
+  - name: "\u6C99\u77F3\u5C0F\u5200"
+    types: 000000000000000008000000000000000800000000000000020000000000000000000000
+    OutPutType: 25
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u635F\u574F\u7684\u6C99\u77F3\u5251"
+    types: 080000000000000000000000080000000000000000000000020000000000000000000000
+    OutPutType: 24
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u9493\u9C7C\u7AFF"
+    types: 000000000000000002000000000000000200000011000000020000000000000011000000
+    OutPutType: 19
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u94C1\u5757"
+    types: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b000000
+    OutPutType: 28
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u94C1\u9524"
+    types: 1c0000001c0000001c000000000000000b00000000000000000000000b00000000000000
+    OutPutType: 27
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u94C1\u5757->\u94C1\u952D"
+    types: 1c0000000000000000000000000000000000000000000000000000000000000000000000
+    OutPutType: 11
+    OutPutNum: 9
+    OutPutDurability: 1
+  - name: "\u94C1\u9550"
+    types: 0b0000000b0000000b000000000000000200000000000000000000000200000000000000
+    OutPutType: 29
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u94C1\u65A7"
+    types: 0b0000000b00000000000000020000000b00000000000000020000000000000000000000
+    OutPutType: 30
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u94F2\u5B50"
+    types: 0b0000000000000000000000020000000000000000000000020000000000000000000000
+    OutPutType: 33
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u6BD2\u523A\u5251"
+    types: 250000000000000000000000250000000000000000000000140000000000000000000000
+    OutPutType: 39
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u6BD2\u9570\u5200"
+    types: 250000002500000000000000140000000000000025000000140000000000000000000000
+    OutPutType: 38
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u9ED1\u6C34"
+    types: 000000002a00000000000000280000002900000028000000000000002a00000000000000
+    OutPutType: 43
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u5C18\u6C99\u952D"
+    types: 000000002e00000000000000000000000b00000000000000000000000900000000000000
+    OutPutType: 47
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u5C18\u6C99\u68CD"
+    types: 000000002e00000000000000020000000200000002000000000000002c00000000000000
+    OutPutType: 49
+    OutPutNum: 3
+    OutPutDurability: 1
+  - name: "\u8511\u89C6"
+    types: 2f00000000000000000000002f0000000000000000000000310000000000000000000000
+    OutPutType: 48
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u7C98\u6027\u9AA8\u7C89"
+    types: 000000001500000000000000000000002c00000000000000000000000000000000000000
+    OutPutType: 45
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u6C99\u77F3\u5757"
+    types: 080000000800000000000000080000000800000000000000000000000000000000000000
+    OutPutType: 31
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u94C1\u5934\u76D4"
+    types: 0b0000000b0000000b0000000b000000000000000b000000000000000000000000000000
+    OutPutType: 51
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u94C1\u80F8\u7532"
+    types: 0b000000000000000b0000000b0000000b0000000b0000000b0000000b0000000b000000
+    OutPutType: 52
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u94C1\u62A4\u817F"
+    types: 0b0000000b0000000b0000000b000000000000000b0000000b000000000000000b000000
+    OutPutType: 53
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u94C1\u9774"
+    types: 0000000000000000000000000b000000000000000b0000000b000000000000000b000000
+    OutPutType: 54
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u6CF0\u5766\u5934\u76D4"
+    types: 2f000000320000002f0000002f000000000000002f000000000000000000000000000000
+    OutPutType: 55
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u6CF0\u5766\u62A4\u7532"
+    types: 2f000000000000002f0000002f000000320000002f0000002f0000002f0000002f000000
+    OutPutType: 56
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u6CF0\u5766\u62A4\u817F"
+    types: 2f0000002f0000002f0000002f000000000000002f0000002f000000000000002f000000
+    OutPutType: 57
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u6CF0\u5766\u9774"
+    types: 0000000000000000000000002f000000000000002f0000002f000000000000002f000000
+    OutPutType: 58
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u6536\u5272"
+    types: 320000002f0000002f00000031000000000000002f000000310000000000000000000000
+    OutPutType: 59
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u53F2\u83B1\u59C6\u5757"
+    types: 3e0000003e0000003e0000003e0000003e0000003e0000003e0000003e0000003e000000
+    OutPutType: 63
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u7C98\u6DB2\u7403"
+    types: 000000000000000000000000000000003f00000000000000000000000000000000000000
+    OutPutType: 62
+    OutPutNum: 9
+    OutPutDurability: 1
+  - name: "\u6C99\u7C98\u6DB2\u7403"
+    types: 3e0000003e0000003e0000003e0000001f0000003e0000003e0000003e0000003e000000
+    OutPutType: 44
+    OutPutNum: 4
+    OutPutDurability: 1
+  - name: "\u5927\u54E5\u5934\u76D4"
+    types: 2f0000000b0000002f0000000b000000370000000b0000002f0000000b0000002f000000
+    OutPutType: 64
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u7329\u7EA2\u952D\u5408\u6210"
+    types: 4c0000004c0000004c0000004c0000004c0000004c0000004c0000004c0000004c000000
+    OutPutType: 78
+    OutPutNum: 2
+    OutPutDurability: 1
+  - name: "\u8840\u8346\u68D8"
+    types: 0000000042000000000000004e000000480000004e000000000000004200000000000000
+    OutPutType: 73
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u8D64\u708E\u6C34\u6676"
+    types: 420000004500000042000000450000004a00000045000000420000004500000042000000
+    OutPutType: 75
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u7329\u7EA2\u7C89\u672B"
+    types: 000000004200000000000000420000004300000042000000000000004200000000000000
+    OutPutType: 83
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u51C0\u5316\u7C89\u672B"
+    types: 000000001500000000000000150000005300000015000000000000001500000000000000
+    OutPutType: 84
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u8113\u8840\u9570\u5200"
+    types: 450000004500000045000000450000002600000045000000450000004500000045000000
+    OutPutType: 94
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u8840\u773C"
+    types: 000000004d00000000000000530000003d00000053000000000000004d00000000000000
+    OutPutType: 79
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u7329\u7EA2\u836F\u6C34"
+    types: 000000004400000000000000660000004800000066000000000000002900000000000000
+    OutPutType: 80
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u9971\u8179\u836F\u6C34"
+    types: 0000000044000000000000002a000000680000002a000000000000002900000000000000
+    OutPutType: 81
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u6613\u4F24\u836F\u6C34"
+    types: 000000004400000000000000450000006500000045000000000000002900000000000000
+    OutPutType: 82
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u9C7C\u9AA8"
+    types: 000000000000000000000000000000006a00000000000000000000000000000000000000
+    OutPutType: 21
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u9C7C\u9975"
+    types: 000000000000000000000000430000004200000044000000000000000000000000000000
+    OutPutType: 100
+    OutPutNum: 3
+    OutPutDurability: 1
+  - name: "\u786C\u5316\u9AA8\u7C89"
+    types: 000000001500000000000000670000001500000067000000000000001500000000000000
+    OutPutType: 90
+    OutPutNum: 2
+    OutPutDurability: 1
+  - name: "\u7EFF\u5B9D\u77F3"
+    types: 6c0000006c0000006c0000006c0000006c0000006c0000006c0000006c0000006c000000
+    OutPutType: 26
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u4FBF\u643A\u9633\u5149"
+    types: 000000000600000000000000060000006900000006000000000000000600000000000000
+    OutPutType: 99
+    OutPutNum: 2
+    OutPutDurability: 1
+  - name: "\u5149\u7C89"
+    types: 000000000000000000000000000000000600000000000000000000000000000000000000
+    OutPutType: 89
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u6B7B\u4EA1\u4F7F\u8005\u9550"
+    types: 4e000000480000004e0000004d000000310000004d000000000000003100000000000000
+    OutPutType: 96
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u5C60\u5200"
+    types: 4e0000004e000000000000004e0000004e00000000000000310000000000000000000000
+    OutPutType: 109
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u808C\u8171\u5F13"
+    types: 000000004e0000004d0000004e000000000000004d000000000000004e0000004d000000
+    OutPutType: 110
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u6355\u8089\u624B"
+    types: 000000000000000011000000000000004e000000110000004e0000000000000011000000
+    OutPutType: 111
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u7329\u7EA2\u5934\u76D4"
+    types: 4e0000004f0000004e0000004e000000000000004e000000000000000000000000000000
+    OutPutType: 85
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u7329\u7EA2\u62A4\u7532"
+    types: 4e000000000000004e0000004e0000004f0000004e0000004e0000004e0000004e000000
+    OutPutType: 86
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u7329\u7EA2\u62A4\u817F"
+    types: 4e0000004e0000004e0000004e0000004d0000004e0000004e0000004d0000004e000000
+    OutPutType: 87
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u7329\u7EA2\u9774"
+    types: 0000000000000000000000004e000000000000004e0000004e000000000000004e000000
+    OutPutType: 88
+    OutPutNum: 1
+    OutPutDurability: 1
+  - name: "\u8BC5\u5492\u4E4B\u5251"
+    types: 000000004e00000000000000000000004900000000000000000000004200000000000000
+    OutPutType: 95
+    OutPutNum: 1
+    OutPutDurability: 1
+--- !u!1 &1839217302825084619
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3588911682699294467}
+  - component: {fileID: 3537391969003875799}
+  m_Layer: 0
+  m_Name: InputMgr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3588911682699294467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839217302825084619}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1737542228716694334}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3537391969003875799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839217302825084619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 445eb8a19360ef641a85abc2b6a8950c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1998965459342040446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1591396419020012788}
+  - component: {fileID: 2641567558656489617}
+  m_Layer: 0
+  m_Name: ResourcesSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1591396419020012788
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998965459342040446}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 25.495678, y: 24.878546, z: 10.024203}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1737542228716694334}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2641567558656489617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998965459342040446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78179bc4da67edd489f3658d8f280940, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+    itemlist:
+    - myName: "\u65E0"
+      type: 0
+      AnimationSprites:
+      - {fileID: 21300000, guid: 9ab61452886078a46a161b47d53caacf, type: 3}
+      AnimationGapTime: 0
+      MaxAmount: 0
+      MaxDurability: 0
+      prefab: {fileID: 0}
+      itemtexts: []
+    - myName: "\u8150\u8089"
+      type: 1
+      AnimationSprites:
+      - {fileID: 1038889663, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 8064155242530493480, guid: 4f1ca30d5ab102443a3dd5592fad6216,
+        type: 3}
+      itemtexts:
+      - text: "\u8150\u8089"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: 
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u597D\u5403\u634F"
+        color: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 1}
+    - myName: "\u6728\u68CD"
+      type: 2
+      AnimationSprites:
+      - {fileID: 1954726073, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 573034844841340906, guid: 88d4c6edffe718e4696b45889682ad50,
+        type: 3}
+      itemtexts:
+      - text: "\u6728\u68CD"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u5DE5\u4F5C\u53F0"
+      type: 3
+      AnimationSprites:
+      - {fileID: -96210580, guid: 12688ae592f72e8478b13dc57611e82d, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 3372581643385322221, guid: 23ab9bf8926ab02409332ff83c131cf1,
+        type: 3}
+      itemtexts:
+      - text: "\u5DE5\u4F5C\u53F0"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: ' '
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u5408\u6210\u7269\u54C1"
+        color: {r: 0.8207547, g: 0.8207547, b: 0.8207547, a: 1}
+    - myName: "\u53F6\u7EFF\u7ED3\u6676"
+      type: 4
+      AnimationSprites:
+      - {fileID: 1180160881, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 5059516279267633950, guid: 352a7018361f14f45ac2a5b336b7ed01,
+        type: 3}
+      itemtexts:
+      - text: "\u53F6\u7EFF\u7ED3\u6676"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: ' '
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u6750\u6599"
+        color: {r: 0, g: 1, b: 0.6948588, a: 1}
+    - myName: "\u53F6\u7EFF\u6CEA"
+      type: 5
+      AnimationSprites:
+      - {fileID: 599660145, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 5974484611194963010, guid: d5650f26cb3273f45a82fb49155fb9ed,
+        type: 3}
+      itemtexts:
+      - text: "\u53F6\u7EFF\u6CEA"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: ' '
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u6750\u6599"
+        color: {r: 0, g: 1, b: 0.6948588, a: 1}
+    - myName: "\u5149\u7D20"
+      type: 6
+      AnimationSprites:
+      - {fileID: 773866815, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 4840970561997804607, guid: fc24aa6fe992011498848c803d33cc31,
+        type: 3}
+      itemtexts:
+      - text: "\u5149\u7D20"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: ' '
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u6750\u6599"
+        color: {r: 0, g: 1, b: 0.6948588, a: 1}
+    - myName: "\u5149\u7D20\u6C34\u6676"
+      type: 7
+      AnimationSprites:
+      - {fileID: -1133538305, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 2397768738417929396, guid: b222c65d5b17b5c46806ac8c36d2948f,
+        type: 3}
+      itemtexts:
+      - text: "\u5149\u7D20\u6C34\u6676"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: ' '
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u6750\u6599"
+        color: {r: 0, g: 1, b: 0.6948588, a: 1}
+    - myName: "\u6C99\u77F3"
+      type: 8
+      AnimationSprites:
+      - {fileID: 985505188, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 7104391037742542822, guid: f38fd39573383f34ba260a4b4e3942ad,
+        type: 3}
+      itemtexts:
+      - text: "\u6C99\u77F3"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: ' '
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u6750\u6599"
+        color: {r: 0, g: 1, b: 0.6948588, a: 1}
+    - myName: "\u67AF\u840E\u7CBE\u534E"
+      type: 9
+      AnimationSprites:
+      - {fileID: 1680138675, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 3958136526236203253, guid: a8bd314ccd882434d8f58247c5aa458f,
+        type: 3}
+      itemtexts:
+      - text: "\u67AF\u840E\u7CBE\u534E"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: ' '
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u6750\u6599"
+        color: {r: 0, g: 1, b: 0.6948588, a: 1}
+    - myName: "\u94C1\u5251"
+      type: 10
+      AnimationSprites:
+      - {fileID: -950737675, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 50
+      prefab: {fileID: 4140890432651110358, guid: 84b2b0df633c7c04a8ffaf52715d88cd,
+        type: 3}
+      itemtexts:
+      - text: "\u94C1\u5251"
+        color: {r: 0.80566037, g: 0.9700062, b: 1, a: 1}
+      - text: ' '
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u653B\u51FB +7"
+        color: {r: 0, g: 0.6513078, b: 1, a: 1}
+      - text: "\u4E2D\u7B49\u8010\u4E45"
+        color: {r: 0, g: 0.618608, b: 1, a: 1}
+    - myName: "\u94C1\u952D"
+      type: 11
+      AnimationSprites:
+      - {fileID: -600112674, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 1639407707781631868, guid: c67cfadbae529ef48a38b0b3e148f000,
+        type: 3}
+      itemtexts:
+      - text: "\u94C1\u952D"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u94C1\u7C92"
+      type: 12
+      AnimationSprites:
+      - {fileID: 1059877394, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 7590078245771052920, guid: d9c907799cbeb53419640c526430dcbf,
+        type: 3}
+      itemtexts:
+      - text: "\u94C1\u7C92"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u82F9\u679C"
+      type: 13
+      AnimationSprites:
+      - {fileID: -2033497546, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 3453676900375704912, guid: e6e417f5149d2c44a9429dd8777801ab,
+        type: 3}
+      itemtexts:
+      - text: "\u82F9\u679C"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u7BAD"
+      type: 14
+      AnimationSprites:
+      - {fileID: 593707357, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 8360636914586835600, guid: 245c2f17feb119e42870384073be9b7a,
+        type: 3}
+      itemtexts:
+      - text: "\u7BAD"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u71E7\u77F3"
+      type: 15
+      AnimationSprites:
+      - {fileID: 234899954, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 8750722393037790553, guid: f33bf2e4156fc6849bba868c8eb84b7e,
+        type: 3}
+      itemtexts:
+      - text: "\u71E7\u77F3"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u7FBD\u6BDB"
+      type: 16
+      AnimationSprites:
+      - {fileID: -1868967635, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 6922539240738164068, guid: 2899e87678040f343ba42d6f2397b059,
+        type: 3}
+      itemtexts:
+      - text: "\u7FBD\u6BDB"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u4E1D\u7EBF"
+      type: 17
+      AnimationSprites:
+      - {fileID: 843442679, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 3998769512530570076, guid: 87dc9c5eef94c2742b549bdba32dd581,
+        type: 3}
+      itemtexts:
+      - text: "\u4E1D\u7EBF"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u5F13"
+      type: 18
+      AnimationSprites:
+      - {fileID: -547181775, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 60
+      prefab: {fileID: 6167644606450409344, guid: 182c3cf35a7db284e8c206d592c7010d,
+        type: 3}
+      itemtexts:
+      - text: "\u5F13"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u9C7C\u7AFF"
+      type: 19
+      AnimationSprites:
+      - {fileID: 1772809193, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 20
+      prefab: {fileID: 953479710203171920, guid: 3c579089ec5823645b4400b5a0642050,
+        type: 3}
+      itemtexts:
+      - text: "\u9C7C\u7AFF"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u7275\u5F15\u654C\u4EBA"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u53EF\u9493\u9C7C\uFF0C\u9700\u8981\u9C7C\u9975"
+        color: {r: 0.38113207, g: 1, b: 0.8995525, a: 1}
+    - myName: "\u9AA8\u5934"
+      type: 20
+      AnimationSprites:
+      - {fileID: -892691578, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 5710451009176531591, guid: 963580feb3d70d748b85cbe0bf7206b7,
+        type: 3}
+      itemtexts:
+      - text: "\u9AA8\u5934"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u9AA8\u7C89"
+      type: 21
+      AnimationSprites:
+      - {fileID: 529128605, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 898110434185180239, guid: 088dd29ee30a97b47b4442fa1f8ac09e,
+        type: 3}
+      itemtexts:
+      - text: "\u9AA8\u7C89"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u6C99\u77F3\u7BAD"
+      type: 22
+      AnimationSprites:
+      - {fileID: 1497101698, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 990344326844150286, guid: f2a6f3c8015c44f4d9051f65c167c983,
+        type: 3}
+      itemtexts:
+      - text: "\u6C99\u77F3\u7BAD"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u6C99\u77F3\u5251"
+      type: 23
+      AnimationSprites:
+      - {fileID: 723405657, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 40
+      prefab: {fileID: 7806335374281221233, guid: e877169613d83fd4d9a6812cc39689e7,
+        type: 3}
+      itemtexts:
+      - text: "\u6C99\u77F3\u5251"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: 
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u653B\u51FB+5"
+        color: {r: 0, g: 1, b: 0.9300573, a: 1}
+    - myName: "\u635F\u574F\u7684\u6C99\u77F3\u5251"
+      type: 24
+      AnimationSprites:
+      - {fileID: 1849882437, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 10
+      prefab: {fileID: 794431418806879928, guid: 39fb6483bca7ac4409b695024e95bc4a,
+        type: 3}
+      itemtexts:
+      - text: "\u635F\u574F\u7684\u6C99\u77F3\u5251"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: 
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u653B\u51FB+4"
+        color: {r: 0, g: 0.9253812, b: 1, a: 1}
+    - myName: "\u6C99\u77F3\u5C0F\u5200"
+      type: 25
+      AnimationSprites:
+      - {fileID: 709580573, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 30
+      prefab: {fileID: 2491401199423058853, guid: 6fd34d6277721b447b75715ada5f75d5,
+        type: 3}
+      itemtexts:
+      - text: "\u6C99\u77F3\u5C0F\u5200"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: 
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u653B\u51FB+3"
+        color: {r: 0, g: 0.9255471, b: 1, a: 1}
+      - text: "\u6781\u5FEB\u7684\u653B\u901F"
+        color: {r: 0, g: 0.9515178, b: 1, a: 1}
+    - myName: "\u7EFF\u5B9D\u77F3"
+      type: 26
+      AnimationSprites:
+      - {fileID: 654552309, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 7435542473332823309, guid: 98b5d8a5b7953fa479e38f24971c59c3,
+        type: 3}
+      itemtexts:
+      - text: "\u7EFF\u5B9D\u77F3"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u81F3\u5C0A\u94C1\u9524"
+      type: 27
+      AnimationSprites:
+      - {fileID: 1386670259, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 80
+      prefab: {fileID: 1789355847715769977, guid: 61720f5087407e848b3b4ca93ecadf46,
+        type: 3}
+      itemtexts:
+      - text: "\u81F3\u5C0A\u94C1\u9524"
+        color: {r: 1, g: 0.86130863, b: 0, a: 1}
+      - text: "\u653B\u51FB+30"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u4E0B\u843D\u653B\u51FB\u9020\u6210"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u8303\u56F4\u4F24\u5BB3"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u94C1\u5757"
+      type: 28
+      AnimationSprites:
+      - {fileID: -855868345, guid: 12688ae592f72e8478b13dc57611e82d, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 1762732347338930302, guid: 9e8b16d2a9d99d947bc07078c1d43570,
+        type: 3}
+      itemtexts:
+      - text: "\u94C1\u5757"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u94C1\u9550"
+      type: 29
+      AnimationSprites:
+      - {fileID: -339691308, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 60
+      prefab: {fileID: 9034671159132917495, guid: 89e9c3243e4b7324a9c9ab4b5395a87c,
+        type: 3}
+      itemtexts:
+      - text: "\u94C1\u9550"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: 
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u653B\u51FB+3"
+        color: {r: 0, g: 0.6939399, b: 1, a: 1}
+    - myName: "\u94C1\u65A7"
+      type: 30
+      AnimationSprites:
+      - {fileID: -1066965425, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 40
+      prefab: {fileID: 1085291021908261626, guid: 6f1025aaa61d6de4b9aa01383aa22fe1,
+        type: 3}
+      itemtexts:
+      - text: "\u94C1\u65A7"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u6C99\u77F3\u5757"
+      type: 31
+      AnimationSprites:
+      - {fileID: -757452842, guid: 12688ae592f72e8478b13dc57611e82d, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 2670798318277472115, guid: a8c8570d52fa399469e9e2b84ad2c92c,
+        type: 3}
+      itemtexts:
+      - text: "\u6C99\u77F3\u5757"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u4ED9\u4EBA\u7403"
+      type: 32
+      AnimationSprites:
+      - {fileID: 1134329115, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 4209584130993823135, guid: 6c25a2e6f3717834586b53d19ac22dc6,
+        type: 3}
+      itemtexts:
+      - text: "\u4ED9\u4EBA\u7403"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u5E26\u523A\u7684\u7F8E\u5473"
+        color: {r: 0.6226415, g: 0.6226415, b: 0.6226415, a: 1}
+    - myName: "\u94F2\u5B50"
+      type: 33
+      AnimationSprites:
+      - {fileID: 1818432539, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 40
+      prefab: {fileID: 3131876259752415708, guid: 676dd7c435369f945ac2b292fb2288a4,
+        type: 3}
+      itemtexts:
+      - text: "\u94F2\u5B50"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u53EF\u94F2\u9664\u690D\u7269"
+        color: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 1}
+    - myName: "\u871C\u6C41\u9E21\u817F"
+      type: 34
+      AnimationSprites:
+      - {fileID: -1260907977, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 7648976669937513384, guid: 3228dc3f96657d843807742d3892c552,
+        type: 3}
+      itemtexts:
+      - text: "\u871C\u6C41\u9E21\u817F"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u8428\u5361\u73ED\u7532\u9C7C"
+      type: 35
+      AnimationSprites:
+      - {fileID: 1341334333, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 40
+      prefab: {fileID: 6456658790185692511, guid: ab055a6088b3db6469fdd2c828c54ee8,
+        type: 3}
+      itemtexts:
+      - text: "\u8428\u5361\u73ED\u7532\u9C7C"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: 
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u653B\u51FB+7"
+        color: {r: 0, g: 0.6120863, b: 1, a: 1}
+    - myName: "\u751F\u53EF\u4E50"
+      type: 36
+      AnimationSprites:
+      - {fileID: 174408816, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 7275454540565645693, guid: 659e52dc77d157b46912a713662527cd,
+        type: 3}
+      itemtexts:
+      - text: "\u751F\u53EF\u4E50"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u5B83\u5728\u53D1\u5149..."
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u6BD2\u523A"
+      type: 37
+      AnimationSprites:
+      - {fileID: 905376468, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 1287371296102318068, guid: 821bcbb4c58bffe48886c293ffeab162,
+        type: 3}
+      itemtexts:
+      - text: "\u6BD2\u523A"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u5267\u6BD2\u9570\u5200"
+      type: 38
+      AnimationSprites:
+      - {fileID: 1716857061, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 30
+      prefab: {fileID: 4307904798417074251, guid: c8c876f84e8898a4e99efe74acda0d69,
+        type: 3}
+      itemtexts:
+      - text: "\u5267\u6BD2\u9570\u5200"
+        color: {r: 1, g: 0, b: 0.81475544, a: 1}
+    - myName: "\u523A\u6BD2\u5251"
+      type: 39
+      AnimationSprites:
+      - {fileID: 1992323845, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 35
+      prefab: {fileID: 5234702125765950955, guid: 12064a6fd697b3446920f1d035dd1719,
+        type: 3}
+      itemtexts:
+      - text: "\u523A\u6BD2\u5251"
+        color: {r: 1, g: 0, b: 0.96587944, a: 1}
+      - text: "\u6211\u7684\u5251\u53EF\u662F\u5E26\u6BD2\u7684"
+        color: {r: 0, g: 0.3834858, b: 1, a: 1}
+    - myName: "\u5947\u602A\u7684\u8150\u8089"
+      type: 40
+      AnimationSprites:
+      - {fileID: 528946408, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 568902345538611678, guid: a9580196cb1257d40964f607a5d2841a,
+        type: 3}
+      itemtexts:
+      - text: "\u5947\u602A\u7684\u8150\u8089"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u73BB\u7483\u74F6"
+      type: 41
+      AnimationSprites:
+      - {fileID: 618381460, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 8376779778696891153, guid: b23553f474e48074a9e82c6df05161e0,
+        type: 3}
+      itemtexts:
+      - text: "\u73BB\u7483\u74F6"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u53D1\u9175\u8718\u86DB\u773C"
+      type: 42
+      AnimationSprites:
+      - {fileID: 1557644468, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 566261163172226092, guid: 93fcabb2b52fb3c4eb17e8f840c6a0f3,
+        type: 3}
+      itemtexts:
+      - text: "\u53D1\u9175\u8718\u86DB\u773C"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u9ED1\u6C34"
+      type: 43
+      AnimationSprites:
+      - {fileID: -847522566, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      - {fileID: -1147101528, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      - {fileID: 695571188, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      - {fileID: -1817312900, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      - {fileID: 1116972784, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      - {fileID: -1816247700, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.1
+      MaxAmount: 16
+      MaxDurability: 1
+      prefab: {fileID: 1004454508532892952, guid: 869d50c1f591290448947646d6e700a9,
+        type: 3}
+      itemtexts:
+      - text: "\u9ED1\u6C34"
+        color: {r: 0.5756297, g: 0, b: 1, a: 1}
+      - text: "\u8574\u542B\u90AA\u6076\u529B\u91CF"
+        color: {r: 0.5756297, g: 0, b: 1, a: 1}
+    - myName: "\u6C99\u7C98\u6DB2\u7403"
+      type: 44
+      AnimationSprites:
+      - {fileID: 615794221, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 8656157511443612678, guid: 886ec338f7bb8744fb1a1f724354fdfd,
+        type: 3}
+      itemtexts:
+      - text: "\u6C99\u7C98\u6DB2\u7403"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u7C98\u6027\u9AA8\u7C89"
+      type: 45
+      AnimationSprites:
+      - {fileID: 474129735, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 7120621812200218552, guid: 9d0c4009a32854641bf1ed44f64aafc4,
+        type: 3}
+      itemtexts:
+      - text: "\u7C98\u6027\u9AA8\u7C89"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u5BF9\u690D\u7269\u4F7F\u7528"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u589E\u5F3A\u690D\u7269\u673A\u80FD"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u5C18\u6C99\u7CBE\u534E"
+      type: 46
+      AnimationSprites:
+      - {fileID: 1582878627, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 8807234102228839506, guid: 7d179069c96de08499efdc89769f6254,
+        type: 3}
+      itemtexts:
+      - text: "\u5C18\u6C99\u7CBE\u534E"
+        color: {r: 0, g: 1, b: 0.9065428, a: 1}
+    - myName: "\u5C18\u6C99\u952D"
+      type: 47
+      AnimationSprites:
+      - {fileID: -2009323210, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 543135956796589982, guid: 18111cb852d88ea4c9f66525a7f57a9c,
+        type: 3}
+      itemtexts:
+      - text: "\u5C18\u6C99\u952D"
+        color: {r: 1, g: 0, b: 0.82702065, a: 1}
+    - myName: "\u8511\u89C6"
+      type: 48
+      AnimationSprites:
+      - {fileID: 884415632, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      - {fileID: -1877207277, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      - {fileID: -1610966253, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 60
+      prefab: {fileID: 6537169666816882402, guid: 0e39364941320d44ab86a92d29880b58,
+        type: 3}
+      itemtexts:
+      - text: "\u8511\u89C6"
+        color: {r: 1, g: 0, b: 0.79998446, a: 1}
+    - myName: "\u5C18\u6C99\u68CD"
+      type: 49
+      AnimationSprites:
+      - {fileID: -1954922943, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 2606585416075723655, guid: fd93b16042f6d1746b7c48069ec3bffd,
+        type: 3}
+      itemtexts:
+      - text: "\u5C18\u6C99\u68CD"
+        color: {r: 0, g: 1, b: 0.9168718, a: 1}
+    - myName: "\u6CF0\u5766\u6838\u5FC3"
+      type: 50
+      AnimationSprites:
+      - {fileID: -385123119, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      - {fileID: -1706838094, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      - {fileID: -1706838094, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.2
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 829127316935750612, guid: e5cec5a392bcfdf46baa266aacf7218a,
+        type: 3}
+      itemtexts:
+      - text: "\u6CF0\u5766\u5FC3\u810F"
+        color: {r: 0, g: 0.940217, b: 1, a: 1}
+      - text: "\u9AD8\u7EA7\u6750\u6599"
+        color: {r: 1, g: 0.28944373, b: 0, a: 1}
+    - myName: "\u94C1\u5934\u76D4"
+      type: 51
+      AnimationSprites:
+      - {fileID: 499254901, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 50
+      prefab: {fileID: 6518655806053165861, guid: f8096338e8a9d3f43bb8307335d78d1a,
+        type: 3}
+      itemtexts:
+      - text: "\u94C1\u5934\u76D4"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u94C1\u80F8\u7532"
+      type: 52
+      AnimationSprites:
+      - {fileID: 887370944, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 65
+      prefab: {fileID: 3067007147626712367, guid: 12030469820438245bb5c734faf88783,
+        type: 3}
+      itemtexts:
+      - text: "\u94C1\u80F8\u7532"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u94C1\u62A4\u817F"
+      type: 53
+      AnimationSprites:
+      - {fileID: 1622937948, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 55
+      prefab: {fileID: 5565306284381447506, guid: b5388fb5fd740d54ca5bc4aeed953d8f,
+        type: 3}
+      itemtexts:
+      - text: "\u94C1\u62A4\u817F"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u94C1\u9774"
+      type: 54
+      AnimationSprites:
+      - {fileID: 1778192450, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 45
+      prefab: {fileID: 582581785732063239, guid: 87ccbdb7f65fd4442a797c9e764c430c,
+        type: 3}
+      itemtexts:
+      - text: "\u94C1\u9774"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u6CF0\u5766\u5934\u76D4"
+      type: 55
+      AnimationSprites:
+      - {fileID: -2049950345, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 100
+      prefab: {fileID: 1584180505705893214, guid: 6fd4c696cca278c41a45bd4acafba010,
+        type: 3}
+      itemtexts:
+      - text: "\u6CF0\u5766\u5934\u76D4"
+        color: {r: 0, g: 0.9411765, b: 1, a: 1}
+    - myName: "\u6CF0\u5766\u62A4\u7532"
+      type: 56
+      AnimationSprites:
+      - {fileID: -1405836464, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 150
+      prefab: {fileID: 164214775133503260, guid: e22144c8213ec6f489ebd74364b1c872,
+        type: 3}
+      itemtexts:
+      - text: "\u6CF0\u5766\u62A4\u7532"
+        color: {r: 0, g: 0.9411765, b: 1, a: 1}
+    - myName: "\u6CF0\u5766\u62A4\u817F"
+      type: 57
+      AnimationSprites:
+      - {fileID: 1786350798, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 125
+      prefab: {fileID: 2385213000333384427, guid: 283cf469e2b287a4ca90376463b97a52,
+        type: 3}
+      itemtexts:
+      - text: "\u6CF0\u5766\u62A4\u817F"
+        color: {r: 0, g: 0.9411765, b: 1, a: 1}
+    - myName: "\u6CF0\u5766\u4E4B\u9774"
+      type: 58
+      AnimationSprites:
+      - {fileID: -1058310771, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 100
+      prefab: {fileID: 2302763028690297565, guid: 45f7321108790d44dadcd57f195944d6,
+        type: 3}
+      itemtexts:
+      - text: "\u6CF0\u5766\u4E4B\u9774"
+        color: {r: 0, g: 0.9411765, b: 1, a: 1}
+    - myName: "\u6536\u5272"
+      type: 59
+      AnimationSprites:
+      - {fileID: 1201857408, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 70
+      prefab: {fileID: 630097450179251272, guid: b9c85f58906e99949b54fa8a05129e0a,
+        type: 3}
+      itemtexts:
+      - text: "\u6536\u5272"
+        color: {r: 0.8162174, g: 0, b: 1, a: 1}
+    - myName: "\u706B\u836F"
+      type: 60
+      AnimationSprites:
+      - {fileID: 2077241773, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 239625530318763251, guid: 3d679e37b5be62d4080263ab526b040a,
+        type: 3}
+      itemtexts:
+      - text: "\u706B\u836F"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u672B\u5F71\u73CD\u73E0"
+      type: 61
+      AnimationSprites:
+      - {fileID: 779036586, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 16
+      MaxDurability: 1
+      prefab: {fileID: 8203559126799434866, guid: 135a08aed0a54d048be9c6a5ced30e42,
+        type: 3}
+      itemtexts:
+      - text: "\u672B\u5F71\u73CD\u73E0"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u8FD9\u4E2A\u672B\u5F71\u73CD\u73E0\u4E3A\u4EC0"
+        color: {r: 0.6483407, g: 1, b: 0, a: 1}
+      - text: "\u4E48\u4E0D\u80FD\u8BA9\u6211\u4F20\u9001\uFF1F"
+        color: {r: 0.64705884, g: 1, b: 0, a: 1}
+    - myName: "\u7C98\u6DB2\u7403"
+      type: 62
+      AnimationSprites:
+      - {fileID: 1832508304, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 427425270049078200, guid: d32fbbd8b6f215b419f8c2c0bb3d2db5,
+        type: 3}
+      itemtexts:
+      - text: "\u7C98\u6DB2\u7403"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u53F2\u83B1\u59C6\u5757"
+      type: 63
+      AnimationSprites:
+      - {fileID: 84377088, guid: 12688ae592f72e8478b13dc57611e82d, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 4448535270195437182, guid: 6878b7b8395a2b54a8a55da7748b2930,
+        type: 3}
+      itemtexts:
+      - text: "\u7C98\u6DB2\u7403"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u58EB\u5175\u5934\u76D4"
+      type: 64
+      AnimationSprites:
+      - {fileID: -468186221, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 1
+      prefab: {fileID: 224637444941852948, guid: 48bb1cceb8eb3ea458f797d740cb66d6,
+        type: 3}
+      itemtexts:
+      - text: "\u58EB\u5175\u5934\u76D4"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u592A\u5200"
+      type: 65
+      AnimationSprites:
+      - {fileID: 21300000, guid: 25e684a1c7f62204798542eea63289d3, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 100
+      prefab: {fileID: 3258531119873598873, guid: 35626975f3bc0ef4ca724a7f64817715,
+        type: 3}
+      itemtexts:
+      - text: "\u592A\u5200"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u867E\u5934"
+        color: {r: 1, g: 0, b: 0, a: 1}
+    - myName: "\u810A\u690E"
+      type: 66
+      AnimationSprites:
+      - {fileID: -579253907, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 5939806937562943308, guid: d810cda6e9d6af6468d80d4f55ba1d93,
+        type: 3}
+      itemtexts:
+      - text: "\u810A\u690E"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u6BD2\u8611\u83C7"
+      type: 67
+      AnimationSprites:
+      - {fileID: -212967241, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 5773749047052628338, guid: 4a1ad95852f0efe4089a11290d0e7dc9,
+        type: 3}
+      itemtexts:
+      - text: "\u6BD2\u8611\u83C7"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u6B7B\u4EA1\u8349"
+      type: 68
+      AnimationSprites:
+      - {fileID: -1212290121, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 6802199618721330425, guid: 0afdadf2448a905499a95da2fc623cd4,
+        type: 3}
+      itemtexts:
+      - text: "\u6B7B\u4EA1\u8349"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u8113\u8840"
+      type: 69
+      AnimationSprites:
+      - {fileID: -403067304, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 2947890134267021623, guid: f4cf71ac2b47fc645827c8d7fd7473c1,
+        type: 3}
+      itemtexts:
+      - text: "\u8113\u8840"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u514B\u82CF\u9C81\u4E4B\u8111"
+      type: 70
+      AnimationSprites:
+      - {fileID: -970557844, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 100
+      prefab: {fileID: 648717593147243016, guid: f3be8c6410da92a4b9520993716e7584,
+        type: 3}
+      itemtexts:
+      - text: "\u514B\u82CF\u9C81\u4E4B\u8111"
+        color: {r: 0, g: 1, b: 1, a: 1}
+      - text: "\u53EF\u88C5\u5907"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u6270\u4E71\u4F60\u7684\u65B9\u5411"
+        color: {r: 1, g: 0, b: 0, a: 1}
+    - myName: "\u5154\u5B50\u5934\u9970"
+      type: 71
+      AnimationSprites:
+      - {fileID: 206037792, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 1000
+      prefab: {fileID: 6368757487557641729, guid: 8fd155d9cae8de241b3fb9b404c40ab4,
+        type: 3}
+      itemtexts:
+      - text: "\u5154\u5B50\u5934\u9970"
+        color: {r: 0.6981132, g: 0.6981132, b: 0.6981132, a: 1}
+      - text: "\u53EF\u88C5\u5907"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u8840\u6CEA"
+      type: 72
+      AnimationSprites:
+      - {fileID: -1516150072, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 5916046327197829280, guid: 08cc66366a8d1544eaf9c3857e03400a,
+        type: 3}
+      itemtexts:
+      - text: "\u8840\u6CEA"
+        color: {r: 1, g: 0.85567, b: 0, a: 1}
+      - text: "\u53EF\u53EC\u5524\u8840\u6708"
+        color: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 1}
+      - text: "\u602A\u7269\u5237\u65B0\u7387\u63D0\u5347"
+        color: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 1}
+      - text: "\u4F60\u60F3\u8FFD\u6C42\u523A\u6FC0\uFF1F"
+        color: {r: 1, g: 0, b: 0.20594549, a: 1}
+    - myName: "\u8840\u8346\u68D8"
+      type: 73
+      AnimationSprites:
+      - {fileID: 667353003, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 100
+      prefab: {fileID: 5211945880067723334, guid: 19cd1912cf1e6994eaf9a38e0de71e1b,
+        type: 3}
+      itemtexts:
+      - text: "\u8840\u8346\u68D8"
+        color: {r: 0, g: 1, b: 0.9262035, a: 1}
+      - text: "\u6D88\u8017\u81EA\u8EAB\u751F\u547D"
+        color: {r: 0.76745605, g: 0, b: 1, a: 1}
+      - text: "\u9020\u6210\u4F24\u5BB3"
+        color: {r: 0.76745605, g: 0, b: 1, a: 1}
+    - myName: "\u5DE8\u4EBA\u7130\u810F"
+      type: 74
+      AnimationSprites:
+      - {fileID: -219368072, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 4309284616716025601, guid: 826c1869c96f48e44b5455b41a1f50a5,
+        type: 3}
+      itemtexts:
+      - text: "\u5DE8\u4EBA\u7130\u810F"
+        color: {r: 1, g: 0.89719844, b: 0, a: 1}
+    - myName: "\u8D64\u6C34\u6676"
+      type: 75
+      AnimationSprites:
+      - {fileID: 1259753318, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 4402007836575072726, guid: 47b486e944be0544fb7a8d02cdf8db39,
+        type: 3}
+      itemtexts:
+      - text: "\u8D64\u6C34\u6676"
+        color: {r: 1, g: 0.7913802, b: 0, a: 1}
+    - myName: "\u7329\u7EA2\u77FF"
+      type: 76
+      AnimationSprites:
+      - {fileID: 2045797467, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 6780111522530875780, guid: 387eb8c175cfd914eb4b68cfaa1109a9,
+        type: 3}
+      itemtexts:
+      - text: "\u7329\u7EA2\u77FF"
+        color: {r: 1, g: 0, b: 0, a: 1}
+    - myName: "\u7EC4\u7EC7\u6837\u672C"
+      type: 77
+      AnimationSprites:
+      - {fileID: 1068307737, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 2875685870586186880, guid: 381bf07df10fa7d4bbcc445c7491362f,
+        type: 3}
+      itemtexts:
+      - text: "\u7EC4\u7EC7\u6837\u672C"
+        color: {r: 1, g: 0, b: 0, a: 1}
+    - myName: "\u7329\u7EA2\u952D"
+      type: 78
+      AnimationSprites:
+      - {fileID: 785558054, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 3801692895784387608, guid: 6fc45afccf09219459bcc9f299c619ce,
+        type: 3}
+      itemtexts:
+      - text: "\u7329\u7EA2\u952D"
+        color: {r: 1, g: 0, b: 0, a: 1}
+    - myName: "\u8840\u773C"
+      type: 79
+      AnimationSprites:
+      - {fileID: -2116887680, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 16
+      MaxDurability: 1
+      prefab: {fileID: 1836441419903590935, guid: 8c59cb1cdaac03d4698ceae0f292906d,
+        type: 3}
+      itemtexts:
+      - text: "\u8840\u773C"
+        color: {r: 1, g: 0.8231152, b: 0, a: 1}
+    - myName: "\u7329\u7EA2\u836F\u6C34"
+      type: 80
+      AnimationSprites:
+      - {fileID: -1028372330, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 4
+      MaxDurability: 1
+      prefab: {fileID: 6615813095640588234, guid: 4807b5b6aeb374a44aeaa93a6d3ac78d,
+        type: 3}
+      itemtexts:
+      - text: "\u7329\u7EA2\u836F\u6C34"
+        color: {r: 0, g: 1, b: 0.8745673, a: 1}
+      - text: "\u4F60\u7684\u653B\u51FB\u5C06\u9644\u5E26\u5438\u8840"
+        color: {r: 0, g: 0.59697556, b: 1, a: 1}
+    - myName: "\u9971\u8179\u836F\u6C34"
+      type: 81
+      AnimationSprites:
+      - {fileID: 444163806, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 4
+      MaxDurability: 1
+      prefab: {fileID: 2867895483324293651, guid: 7bad264ae3142f448be4a316eba18cbe,
+        type: 3}
+      itemtexts:
+      - text: "\u9971\u8179\u836F\u6C34"
+        color: {r: 0, g: 1, b: 0.8745673, a: 1}
+      - text: "\u964D\u4F4E\u9965\u997F\u611F"
+        color: {r: 0, g: 1, b: 0.8745673, a: 1}
+    - myName: "\u6613\u4F24\u836F\u6C34"
+      type: 82
+      AnimationSprites:
+      - {fileID: -1314278588, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 4
+      MaxDurability: 1
+      prefab: {fileID: 430312569154667723, guid: 7395fda516e121e408029138004f3f0a,
+        type: 3}
+      itemtexts:
+      - text: "\u6613\u4F24\u836F\u6C34"
+        color: {r: 0, g: 1, b: 0.8745673, a: 1}
+      - text: "\u5C0F\u6982\u7387\u9020\u6210\u53CC\u500D\u4F24\u5BB3"
+        color: {r: 0, g: 1, b: 0.8745673, a: 1}
+    - myName: "\u7329\u7EA2\u7C89\u672B"
+      type: 83
+      AnimationSprites:
+      - {fileID: -1133552505, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 16
+      MaxDurability: 1
+      prefab: {fileID: 7703237499827767868, guid: ca2c4676f837ad84dae7a4050aed1ec2,
+        type: 3}
+      itemtexts:
+      - text: "\u7329\u7EA2\u7C89\u672B"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u6C61\u67D3\u5730\u5757"
+        color: {r: 0.5660378, g: 0.08223566, b: 0.08223566, a: 1}
+    - myName: "\u51C0\u5316\u7C89\u672B"
+      type: 84
+      AnimationSprites:
+      - {fileID: -493679836, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 16
+      MaxDurability: 1
+      prefab: {fileID: 21433426515017630, guid: cd429fbd8d138b54c847398b1fa509da,
+        type: 3}
+      itemtexts:
+      - text: "\u51C0\u5316\u7C89\u672B"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u51C0\u5316\u5730\u5757"
+        color: {r: 0.51320755, g: 1, b: 0.8755127, a: 1}
+    - myName: "\u7329\u7EA2\u5934\u76D4"
+      type: 85
+      AnimationSprites:
+      - {fileID: -1367551025, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 150
+      prefab: {fileID: 1801297091192828083, guid: bdfd5ab3c4e263d49b2315a207e51f99,
+        type: 3}
+      itemtexts:
+      - text: "\u7329\u7EA2\u5934\u76D4"
+        color: {r: 0.98122644, g: 0, b: 1, a: 1}
+    - myName: "\u7329\u7EA2\u62A4\u7532"
+      type: 86
+      AnimationSprites:
+      - {fileID: -197023565, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 200
+      prefab: {fileID: 3147824007777551621, guid: 3ff4912392508384dbfd92f2fd606bae,
+        type: 3}
+      itemtexts:
+      - text: "\u7329\u7EA2\u62A4\u7532"
+        color: {r: 0.98122644, g: 0, b: 1, a: 1}
+    - myName: "\u7329\u7EA2\u62A4\u817F"
+      type: 87
+      AnimationSprites:
+      - {fileID: 1242057338, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 175
+      prefab: {fileID: 2990161560598585881, guid: e790a367917211d45954aac94eef886c,
+        type: 3}
+      itemtexts:
+      - text: "\u7329\u7EA2\u62A4\u817F"
+        color: {r: 0.98122644, g: 0, b: 1, a: 1}
+    - myName: "\u7329\u7EA2\u9774"
+      type: 88
+      AnimationSprites:
+      - {fileID: 1917225271, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 150
+      prefab: {fileID: 7478695270966702624, guid: a4db1713a7af4d447aae8183ecac293e,
+        type: 3}
+      itemtexts:
+      - text: "\u7329\u7EA2\u9774"
+        color: {r: 0.98122644, g: 0, b: 1, a: 1}
+    - myName: "\u5149\u7C89"
+      type: 89
+      AnimationSprites:
+      - {fileID: -68705480, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 6789537620631689840, guid: 0d90e0804fa913f4f9a7855ff95184f4,
+        type: 3}
+      itemtexts:
+      - text: "\u5149\u7C89"
+        color: {r: 1, g: 0.9390176, b: 0, a: 1}
+      - text: "\u4EA7\u751F\u5149\u7167"
+        color: {r: 1, g: 0.9390176, b: 0, a: 1}
+    - myName: "\u786C\u5316\u9AA8\u7C89"
+      type: 90
+      AnimationSprites:
+      - {fileID: -1851285384, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 2848354194628331006, guid: d80421e7b34bdea42a09eec3bd38d12d,
+        type: 3}
+      itemtexts:
+      - text: "\u786C\u5316\u9AA8\u7C89"
+        color: {r: 1, g: 0.9390176, b: 0, a: 1}
+      - text: "\u589E\u52A0\u690D\u7269\u9632\u5FA1\u529B"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u7206\u6876"
+      type: 91
+      AnimationSprites:
+      - {fileID: 544927862, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 16
+      MaxDurability: 1
+      prefab: {fileID: 8913248104494436826, guid: c208beca1ecbc1f43ad494d16d994dd9,
+        type: 3}
+      itemtexts:
+      - text: "\u7206\u6876G"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u653E\u7F6E\u53EF\u7206\u70B8\u7684\u7206\u6876"
+        color: {r: 1, g: 0.84731054, b: 0, a: 0}
+    - myName: "\u751F\u547D\u6C34\u6676"
+      type: 92
+      AnimationSprites:
+      - {fileID: 743373805, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 16
+      MaxDurability: 1
+      prefab: {fileID: 702786566796896338, guid: 57e5c0f8fff847f4395da79925e70a22,
+        type: 3}
+      itemtexts:
+      - text: "\u751F\u547D\u6C34\u6676"
+        color: {r: 1, g: 0, b: 0.8318963, a: 1}
+      - text: "\u63D0\u5347\u751F\u547D\u4E0A\u9650"
+        color: {r: 1, g: 0.53825164, b: 0, a: 0}
+      - text: "\u4EC5\u5F53\u5C40\u6709\u6548"
+        color: {r: 1, g: 0.53825164, b: 0, a: 0}
+    - myName: "\u8D6B\u5C14\u58A8\u65AF\u4E4B\u9774"
+      type: 93
+      AnimationSprites:
+      - {fileID: 1462409887, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 80
+      prefab: {fileID: 6813370389986096023, guid: ad38171e1ba80e04693b90726123de0c,
+        type: 3}
+      itemtexts:
+      - text: "\u8D6B\u5C14\u58A8\u65AF\u4E4B\u9774"
+        color: {r: 0, g: 1, b: 0.8903768, a: 1}
+      - text: "\u589E\u52A0\u79FB\u52A8\u901F\u5EA6"
+        color: {r: 0, g: 0.9898858, b: 1, a: 0}
+    - myName: "\u8113\u8840\u9570\u5200"
+      type: 94
+      AnimationSprites:
+      - {fileID: -345040271, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 30
+      prefab: {fileID: 546930925653136139, guid: ef0b7a7790a2c99448a5f580c9ddc96f,
+        type: 3}
+      itemtexts:
+      - text: "\u8113\u8840\u9570\u5200"
+        color: {r: 1, g: 0.6285174, b: 0, a: 1}
+      - text: "\u6613\u4F24BUFF"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u8BC5\u5492\u4E4B\u5251"
+      type: 95
+      AnimationSprites:
+      - {fileID: 1418973932, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 45
+      prefab: {fileID: 2837399474775500595, guid: 19aa74d1a28c2d0418f4a6169346a493,
+        type: 3}
+      itemtexts:
+      - text: "\u8BC5\u5492\u4E4B\u5251"
+        color: {r: 1, g: 0.6285174, b: 0, a: 1}
+      - text: "\u4F24\u654C1000"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u81EA\u635F8000"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u6B7B\u4EA1\u4F7F\u8005\u9550"
+      type: 96
+      AnimationSprites:
+      - {fileID: -1483181206, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 500
+      prefab: {fileID: 8917513839654202034, guid: e9193757d00faac47af34f32148dc36b,
+        type: 3}
+      itemtexts:
+      - text: "\u6B7B\u4EA1\u4F7F\u8005\u9550"
+        color: {r: 1, g: 0.6285174, b: 0, a: 1}
+    - myName: "\u540C\u5FD7\u77ED\u5251"
+      type: 97
+      AnimationSprites:
+      - {fileID: 1534020623, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 500
+      prefab: {fileID: 3816683727113549670, guid: dab6f37aca305af47a48dec28faaab4c,
+        type: 3}
+      itemtexts:
+      - text: "\u540C\u5FD7\u77ED\u5251"
+        color: {r: 1, g: 0.16744283, b: 0, a: 1}
+      - text: "\u6700\u5F3A\u6B66\u5668"
+        color: {r: 1, g: 0.16744283, b: 0, a: 1}
+    - myName: "\u642C\u8FD0\u624B\u5957"
+      type: 98
+      AnimationSprites:
+      - {fileID: -1088804809, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 20
+      prefab: {fileID: 7963912764418161738, guid: 3c473e4734e44da4ab8af0a0e5c96fe1,
+        type: 3}
+      itemtexts:
+      - text: "\u642C\u8FD0\u624B\u5957"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u53EF\u642C\u8FD0\u690D\u7269"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u4FBF\u643A\u9633\u5149"
+      type: 99
+      AnimationSprites:
+      - {fileID: 1705968116, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 16
+      MaxDurability: 1
+      prefab: {fileID: 6024294157649824373, guid: 6d6e685be4ff28942ab7ad822f90df97,
+        type: 3}
+      itemtexts:
+      - text: "\u4FBF\u643A\u9633\u5149"
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - text: "\u4F7F\u7528\u540E\u83B7\u53D6\u9633\u5149"
+        color: {r: 1, g: 0.81903875, b: 0, a: 1}
+    - myName: "\u9C7C\u9975"
+      type: 100
+      AnimationSprites:
+      - {fileID: -687667358, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 5449562864953457710, guid: 0ec6475974274714c8b4d750549d6bac,
+        type: 3}
+      itemtexts:
+      - text: "\u9C7C\u9975"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u8113\u8840\u9C7C"
+      type: 101
+      AnimationSprites:
+      - {fileID: -1650749582, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 308462721842984424, guid: 478fd93349f99f848a344b01163b4591,
+        type: 3}
+      itemtexts:
+      - text: "\u8113\u8840\u9C7C"
+        color: {r: 1, g: 0.67079926, b: 0, a: 1}
+    - myName: "\u8840\u9C7C"
+      type: 102
+      AnimationSprites:
+      - {fileID: 1422549313, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 5923974723515030765, guid: e20be2489c639614d928e7f6b9cbe596,
+        type: 3}
+      itemtexts:
+      - text: "\u8840\u9C7C"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u77F3\u5934\u9C7C"
+      type: 103
+      AnimationSprites:
+      - {fileID: 1121045656, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 2928892633322948252, guid: 7955b0fdef2c03f439157b7478732fdf,
+        type: 3}
+      itemtexts:
+      - text: "\u77F3\u5934\u9C7C"
+        color: {r: 1, g: 1, b: 1, a: 1}
+    - myName: "\u7D2B\u6676\u9C7C"
+      type: 104
+      AnimationSprites:
+      - {fileID: -630615046, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 6073756238001835017, guid: df814bcbc8b6b1f4a8bf82a91acc9fd8,
+        type: 3}
+      itemtexts:
+      - text: "\u7D2B\u6676\u9C7C"
+        color: {r: 1, g: 0, b: 0.5822573, a: 1}
+    - myName: "\u9EC4\u6676\u9C7C"
+      type: 105
+      AnimationSprites:
+      - {fileID: 394526181, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 7359676351231678188, guid: 901e595dc5b960249a97b7ba4bde81e8,
+        type: 3}
+      itemtexts:
+      - text: "\u9EC4\u6676\u9C7C"
+        color: {r: 1, g: 0, b: 0.5822573, a: 1}
+    - myName: "\u9C7C\u9AA8"
+      type: 106
+      AnimationSprites:
+      - {fileID: -640011692, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 2768010457580235198, guid: d4476a835a0bd2c4d8eee26b78867191,
+        type: 3}
+      itemtexts:
+      - text: "\u9C7C\u9AA8"
+        color: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
+    - myName: "\u6C34\u8349"
+      type: 107
+      AnimationSprites:
+      - {fileID: 806977125, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 8039847308441933427, guid: d13b8c20c7c003a479bca31f17d0119f,
+        type: 3}
+      itemtexts:
+      - text: "\u6C34\u8349"
+        color: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
+    - myName: "\u7EFF\u5B9D\u77F3\u788E\u7247"
+      type: 108
+      AnimationSprites:
+      - {fileID: -1738473363, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 64
+      MaxDurability: 1
+      prefab: {fileID: 1728906202592713451, guid: e721ff1e91f2ccf47ac46ffd934f6937,
+        type: 3}
+      itemtexts:
+      - text: "\u7EFF\u5B9D\u77F3\u788E\u7247"
+        color: {r: 0.645283, g: 1, b: 0.91560924, a: 1}
+    - myName: "\u8840\u8165\u5C60\u5200"
+      type: 109
+      AnimationSprites:
+      - {fileID: -138535107, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 120
+      prefab: {fileID: 689548954358972307, guid: 229123d06002d5843af70ada0f6fadb1,
+        type: 3}
+      itemtexts:
+      - text: "\u8840\u8165\u5C60\u5200"
+        color: {r: 1, g: 0.18560539, b: 0, a: 1}
+    - myName: "\u808C\u8171\u5F13"
+      type: 110
+      AnimationSprites:
+      - {fileID: -399308078, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 70
+      prefab: {fileID: 4395739462263145558, guid: 0a5e16878ed64ff458a6bd00c5a6a807,
+        type: 3}
+      itemtexts:
+      - text: "\u808C\u8171\u5F13"
+        color: {r: 1, g: 0.18560539, b: 0, a: 1}
+    - myName: "\u6355\u8089\u8005"
+      type: 111
+      AnimationSprites:
+      - {fileID: -735501667, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+      AnimationGapTime: 0.4
+      MaxAmount: 1
+      MaxDurability: 120
+      prefab: {fileID: 1791802427491047188, guid: 46e8f242ba5511449ac54f9d76d7e605,
+        type: 3}
+      itemtexts:
+      - text: "\u6355\u8089\u8005"
+        color: {r: 1, g: 0.18560539, b: 0, a: 1}
+      - text: "\u53EF\u9493\u9C7C\uFF0C\u9700\u8981\u9C7C\u9975"
+        color: {r: 0, g: 1, b: 0.7070801, a: 1}
+    enemylist:
+    - myName: "\u50F5\u5C38"
+      type: 0
+      aimHeight: 1
+      prefab: {fileID: 3380739615355396194, guid: 38436a57d9fb09d4e9eaf3f62e53c9b5,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: b237510db201fef49aeb59423c175d16, type: 3}
+      - {fileID: 8300000, guid: 096d17e1a3e2c5645821dadc870409e5, type: 3}
+      IdleSounds:
+      - {fileID: 8300000, guid: dd58e0e1c6190944eb0024ed8c149522, type: 3}
+      - {fileID: 8300000, guid: 749b5aeab9c0d594d8585b2d1bb58c06, type: 3}
+      - {fileID: 8300000, guid: f114c1b8a5444784e826733ee40ebbf4, type: 3}
+      DeathSounds:
+      - {fileID: 8300000, guid: 6968bb12fa7580a489b879e7bb5ad082, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 1
+        maxCount: 2
+        minCount: 0
+        dropProbability: 0.2
+      - type: 11
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.03
+      - type: 12
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.1
+    - myName: "\u5C38\u58F3"
+      type: 1
+      aimHeight: 1
+      prefab: {fileID: 3541533586086782227, guid: e7eb6d9bee8400c40bedd83195c918a8,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: b237510db201fef49aeb59423c175d16, type: 3}
+      - {fileID: 8300000, guid: 096d17e1a3e2c5645821dadc870409e5, type: 3}
+      IdleSounds:
+      - {fileID: 8300000, guid: dd58e0e1c6190944eb0024ed8c149522, type: 3}
+      - {fileID: 8300000, guid: 749b5aeab9c0d594d8585b2d1bb58c06, type: 3}
+      - {fileID: 8300000, guid: f114c1b8a5444784e826733ee40ebbf4, type: 3}
+      DeathSounds:
+      - {fileID: 8300000, guid: 6968bb12fa7580a489b879e7bb5ad082, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 1
+        maxCount: 2
+        minCount: 0
+        dropProbability: 0.2
+      - type: 11
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.03
+    - myName: "\u5C38\u58F3\u76FE"
+      type: 2
+      aimHeight: 1
+      prefab: {fileID: 8175626679273760970, guid: 3720ba13524d62742bb332ea24762e79,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: b237510db201fef49aeb59423c175d16, type: 3}
+      - {fileID: 8300000, guid: 096d17e1a3e2c5645821dadc870409e5, type: 3}
+      IdleSounds:
+      - {fileID: 8300000, guid: dd58e0e1c6190944eb0024ed8c149522, type: 3}
+      - {fileID: 8300000, guid: 749b5aeab9c0d594d8585b2d1bb58c06, type: 3}
+      - {fileID: 8300000, guid: f114c1b8a5444784e826733ee40ebbf4, type: 3}
+      DeathSounds:
+      - {fileID: 8300000, guid: 6968bb12fa7580a489b879e7bb5ad082, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 1
+        maxCount: 2
+        minCount: 0
+        dropProbability: 0.2
+      - type: 11
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.03
+    - myName: "\u874E\u5B50"
+      type: 3
+      aimHeight: 0
+      prefab: {fileID: 6188956126468814779, guid: 92b16b8052d6003479769c405c53cdf1,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: c62a823f0bab2f24a8a94974099f6198, type: 3}
+      - {fileID: 8300000, guid: cff3ee8299a6a9c498b921c88e20135f, type: 3}
+      - {fileID: 8300000, guid: 1da5cf6db300c654aa28a795c6d2f402, type: 3}
+      IdleSounds:
+      - {fileID: 8300000, guid: cff3ee8299a6a9c498b921c88e20135f, type: 3}
+      - {fileID: 8300000, guid: 1da5cf6db300c654aa28a795c6d2f402, type: 3}
+      - {fileID: 8300000, guid: ba5eaf7393379a340ae422ad64e52ca6, type: 3}
+      - {fileID: 8300000, guid: c62a823f0bab2f24a8a94974099f6198, type: 3}
+      DeathSounds:
+      - {fileID: 8300000, guid: 2a382367a6dd8ad44be0582d60566b0e, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 8
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.6
+      - type: 37
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.1
+    - myName: "\u5251\u58EB"
+      type: 4
+      aimHeight: 1
+      prefab: {fileID: 2983177194517058830, guid: d13511e3042281948983bd5ccb560561,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: b237510db201fef49aeb59423c175d16, type: 3}
+      - {fileID: 8300000, guid: 096d17e1a3e2c5645821dadc870409e5, type: 3}
+      IdleSounds:
+      - {fileID: 8300000, guid: dd58e0e1c6190944eb0024ed8c149522, type: 3}
+      - {fileID: 8300000, guid: 749b5aeab9c0d594d8585b2d1bb58c06, type: 3}
+      - {fileID: 8300000, guid: f114c1b8a5444784e826733ee40ebbf4, type: 3}
+      DeathSounds:
+      - {fileID: 8300000, guid: 6968bb12fa7580a489b879e7bb5ad082, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 1
+        maxCount: 2
+        minCount: 0
+        dropProbability: 0.4
+      - type: 11
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.03
+      - type: 40
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.1
+    - myName: ZombieN
+      type: 5
+      aimHeight: 1
+      prefab: {fileID: 2459291048895012199, guid: ac135a9d8e2eebe48a75fd5490c43f06,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: b237510db201fef49aeb59423c175d16, type: 3}
+      - {fileID: 8300000, guid: 096d17e1a3e2c5645821dadc870409e5, type: 3}
+      IdleSounds:
+      - {fileID: 8300000, guid: dd58e0e1c6190944eb0024ed8c149522, type: 3}
+      - {fileID: 8300000, guid: 749b5aeab9c0d594d8585b2d1bb58c06, type: 3}
+      - {fileID: 8300000, guid: f114c1b8a5444784e826733ee40ebbf4, type: 3}
+      DeathSounds:
+      - {fileID: 8300000, guid: 6968bb12fa7580a489b879e7bb5ad082, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 1
+        maxCount: 2
+        minCount: 0
+        dropProbability: 0.4
+      - type: 11
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.03
+      - type: 40
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.2
+    - myName: "\u62A4\u7532\u5C38\u58F3"
+      type: 6
+      aimHeight: 1
+      prefab: {fileID: 5201008720644424479, guid: 0782e5f490d403a4db513895e8e3d371,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: b237510db201fef49aeb59423c175d16, type: 3}
+      - {fileID: 8300000, guid: 096d17e1a3e2c5645821dadc870409e5, type: 3}
+      IdleSounds:
+      - {fileID: 8300000, guid: dd58e0e1c6190944eb0024ed8c149522, type: 3}
+      - {fileID: 8300000, guid: 749b5aeab9c0d594d8585b2d1bb58c06, type: 3}
+      - {fileID: 8300000, guid: f114c1b8a5444784e826733ee40ebbf4, type: 3}
+      DeathSounds:
+      - {fileID: 8300000, guid: 6968bb12fa7580a489b879e7bb5ad082, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 1
+        maxCount: 2
+        minCount: 0
+        dropProbability: 0.4
+      - type: 11
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.03
+    - myName: "\u9AB7\u9AC5"
+      type: 7
+      aimHeight: 1
+      prefab: {fileID: 2425215443883952880, guid: d2e0bb08e50846746bc0b4fd6663c8e3,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: 1b6ac6f6323a7c54d8578a5f0a817cda, type: 3}
+      - {fileID: 8300000, guid: cc354660a6a476f45808306be86a98ea, type: 3}
+      - {fileID: 8300000, guid: 1b128a6c704429a4c83bd97340e8cae0, type: 3}
+      - {fileID: 8300000, guid: 111c5a7e45489b14a8fb46e7fceec8e8, type: 3}
+      IdleSounds:
+      - {fileID: 8300000, guid: 62ab3ad65ae18ee46baef43f2eb68a9b, type: 3}
+      - {fileID: 8300000, guid: eda81594eb761594aa1c4d300a4315cc, type: 3}
+      - {fileID: 8300000, guid: d9a8b48d1d328b141b9796cd44b94626, type: 3}
+      DeathSounds:
+      - {fileID: 8300000, guid: 7b90957d3aee7d7409d5668e5426089f, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 20
+        maxCount: 2
+        minCount: 0
+        dropProbability: 0.2
+      - type: 46
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.3
+    - myName: "\u6C99\u53F2\u83B1\u59C6"
+      type: 8
+      aimHeight: 0.2
+      prefab: {fileID: 4118275086250204745, guid: 02547bd6f8dcddc409e5b13652c3cd39,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: bd74c612034e5e145b2db77a6ef9a7be, type: 3}
+      - {fileID: 8300000, guid: 60f710eeb8b5ae740b385ffc6567e1c3, type: 3}
+      - {fileID: 8300000, guid: 9c73d88ca3216f540a7e538308e36b82, type: 3}
+      - {fileID: 8300000, guid: a94c7496c218fbd48b685a83350aca3d, type: 3}
+      - {fileID: 8300000, guid: 4fd36338a69674641af28ce31675a628, type: 3}
+      IdleSounds: []
+      DeathSounds:
+      - {fileID: 8300000, guid: be559f67f437fd341958df96b6b3373b, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: 06ad46f3589b9b344be3d68bd472414c, type: 3}
+      - {fileID: 8300000, guid: 49de9c113bbc03b4185708891638a5c8, type: 3}
+      dropItems:
+      - type: 44
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.3
+    - myName: "\u5C42\u5CA9\u5DE8\u5C38"
+      type: 9
+      aimHeight: 2
+      prefab: {fileID: 699235075377099312, guid: aef7d468af725c44e86bdb7895576499,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: c9bd9f69730f6f64e8658a0e5cb6409d, type: 3}
+      - {fileID: 8300000, guid: 6ab0a0e88a3023945868610afa181ce7, type: 3}
+      - {fileID: 8300000, guid: 97de64fff536311419d383831d49b665, type: 3}
+      - {fileID: 8300000, guid: ed65d0b24df1d364984fca1a6812645c, type: 3}
+      - {fileID: 8300000, guid: 57f350a84c2d11d4c9101913028c11e1, type: 3}
+      - {fileID: 8300000, guid: 6d4a880d23f4cf14f85d5846028e3180, type: 3}
+      IdleSounds: []
+      DeathSounds:
+      - {fileID: 8300000, guid: 7a2432b44edf77f4495c096cbc8da6ad, type: 3}
+      AttackSounds: []
+      dropItems:
+      - type: 50
+        maxCount: 2
+        minCount: 1
+        dropProbability: 0.3
+    - myName: "\u82E6\u529B\u6015"
+      type: 10
+      aimHeight: 1
+      prefab: {fileID: 2900840655376644691, guid: bfb8f429e6a0ae042811164db3a9fc6c,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: be4d7192d1a5c67419bc9fd470dcbfdb, type: 3}
+      - {fileID: 8300000, guid: dccd1fbd4e7fabf40928646304b710af, type: 3}
+      - {fileID: 8300000, guid: 05553b7b02451534f8dfd8959152b23a, type: 3}
+      - {fileID: 8300000, guid: a39fa6dc681010d438562e5f5ff9deeb, type: 3}
+      IdleSounds: []
+      DeathSounds:
+      - {fileID: 8300000, guid: 7ec7c9b8d02ca5343b3721b8d0f8d3e5, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: 019aea5010a57c944926b8df123a5487, type: 3}
+      - {fileID: 8300000, guid: 4152c09a62e60134dbde29ef891a0d68, type: 3}
+      - {fileID: 8300000, guid: 97d7510ef659b5649bb54d8aca400826, type: 3}
+      dropItems:
+      - type: 60
+        maxCount: 2
+        minCount: 0
+        dropProbability: 0.6
+    - myName: "\u672B\u5F71\u4EBA"
+      type: 11
+      aimHeight: 1.5
+      prefab: {fileID: 2838850860857121085, guid: 92eb32b46ffcdf244aad9ff2747bea2c,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: 621fe127bc860b84fbeb29c397526a98, type: 3}
+      - {fileID: 8300000, guid: 4873b4c787c638d4f89a131a6d9c37e1, type: 3}
+      - {fileID: 8300000, guid: e1453e0a59a149f4bac8c6f92a807dac, type: 3}
+      - {fileID: 8300000, guid: ab46ec87d90c4fa458ec7d7a681d9573, type: 3}
+      IdleSounds:
+      - {fileID: 8300000, guid: 7492b292fd0a362479e0f1a836b71ac8, type: 3}
+      - {fileID: 8300000, guid: 9fff6b4befb0cad408f06f7cae28bae4, type: 3}
+      - {fileID: 8300000, guid: 5e499ccd766b35940b29ee97b6182c94, type: 3}
+      - {fileID: 8300000, guid: 7685179ae7f87b446aed2d64f67bcecd, type: 3}
+      - {fileID: 8300000, guid: bc8ff545dc93ec148bc5485be22ec125, type: 3}
+      DeathSounds:
+      - {fileID: 8300000, guid: a580d9ab4dee6564e96a09aa844fce3f, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 61
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.7
+    - myName: "\u53F2\u83B1\u59C6"
+      type: 12
+      aimHeight: 0.5
+      prefab: {fileID: 4839301035607838734, guid: a144ee9085829f64d89f7eb85bb46071,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: bd74c612034e5e145b2db77a6ef9a7be, type: 3}
+      - {fileID: 8300000, guid: 60f710eeb8b5ae740b385ffc6567e1c3, type: 3}
+      - {fileID: 8300000, guid: 9c73d88ca3216f540a7e538308e36b82, type: 3}
+      - {fileID: 8300000, guid: a94c7496c218fbd48b685a83350aca3d, type: 3}
+      - {fileID: 8300000, guid: 4fd36338a69674641af28ce31675a628, type: 3}
+      IdleSounds: []
+      DeathSounds:
+      - {fileID: 8300000, guid: be559f67f437fd341958df96b6b3373b, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: 06ad46f3589b9b344be3d68bd472414c, type: 3}
+      - {fileID: 8300000, guid: 49de9c113bbc03b4185708891638a5c8, type: 3}
+      dropItems: []
+    - myName: "\u53F2\u83B1\u59C6_\u4E2D"
+      type: 12
+      aimHeight: 0.3
+      prefab: {fileID: 1575049429954704044, guid: 2c8a97a1e07cbe645afe7c3f61c22b27,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: bd74c612034e5e145b2db77a6ef9a7be, type: 3}
+      - {fileID: 8300000, guid: 60f710eeb8b5ae740b385ffc6567e1c3, type: 3}
+      - {fileID: 8300000, guid: 9c73d88ca3216f540a7e538308e36b82, type: 3}
+      - {fileID: 8300000, guid: a94c7496c218fbd48b685a83350aca3d, type: 3}
+      - {fileID: 8300000, guid: 4fd36338a69674641af28ce31675a628, type: 3}
+      IdleSounds: []
+      DeathSounds:
+      - {fileID: 8300000, guid: be559f67f437fd341958df96b6b3373b, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: 06ad46f3589b9b344be3d68bd472414c, type: 3}
+      - {fileID: 8300000, guid: 49de9c113bbc03b4185708891638a5c8, type: 3}
+      dropItems: []
+    - myName: "\u53F2\u83B1\u59C6_\u5C0F"
+      type: 14
+      aimHeight: 0.1
+      prefab: {fileID: 3477475081971471501, guid: c2d275e9ab2c42f4d837a6015519dc20,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: bd74c612034e5e145b2db77a6ef9a7be, type: 3}
+      - {fileID: 8300000, guid: 60f710eeb8b5ae740b385ffc6567e1c3, type: 3}
+      - {fileID: 8300000, guid: 9c73d88ca3216f540a7e538308e36b82, type: 3}
+      - {fileID: 8300000, guid: a94c7496c218fbd48b685a83350aca3d, type: 3}
+      - {fileID: 8300000, guid: 4fd36338a69674641af28ce31675a628, type: 3}
+      IdleSounds: []
+      DeathSounds:
+      - {fileID: 8300000, guid: be559f67f437fd341958df96b6b3373b, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: 06ad46f3589b9b344be3d68bd472414c, type: 3}
+      - {fileID: 8300000, guid: 49de9c113bbc03b4185708891638a5c8, type: 3}
+      dropItems:
+      - type: 62
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.3
+    - myName: "\u94BB\u77F3\u5957\u50F5\u5C38"
+      type: 15
+      aimHeight: 1
+      prefab: {fileID: 1491635652468940190, guid: e5ace9dd9d3f1a74ebc07b3a9c7b5943,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: b237510db201fef49aeb59423c175d16, type: 3}
+      - {fileID: 8300000, guid: 096d17e1a3e2c5645821dadc870409e5, type: 3}
+      IdleSounds:
+      - {fileID: 8300000, guid: dd58e0e1c6190944eb0024ed8c149522, type: 3}
+      - {fileID: 8300000, guid: 749b5aeab9c0d594d8585b2d1bb58c06, type: 3}
+      - {fileID: 8300000, guid: f114c1b8a5444784e826733ee40ebbf4, type: 3}
+      DeathSounds:
+      - {fileID: 8300000, guid: 6968bb12fa7580a489b879e7bb5ad082, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 1
+        maxCount: 2
+        minCount: 0
+        dropProbability: 0.4
+      - type: 11
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.03
+      - type: 12
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.1
+    - myName: "\u75BE\u8D70\u50F5\u5C38"
+      type: 16
+      aimHeight: 1
+      prefab: {fileID: 4976568922186142337, guid: 9734e446be3cca54da3a36c98af75329,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: b237510db201fef49aeb59423c175d16, type: 3}
+      - {fileID: 8300000, guid: 096d17e1a3e2c5645821dadc870409e5, type: 3}
+      IdleSounds:
+      - {fileID: 8300000, guid: dd58e0e1c6190944eb0024ed8c149522, type: 3}
+      - {fileID: 8300000, guid: 749b5aeab9c0d594d8585b2d1bb58c06, type: 3}
+      - {fileID: 8300000, guid: f114c1b8a5444784e826733ee40ebbf4, type: 3}
+      DeathSounds:
+      - {fileID: 8300000, guid: 6968bb12fa7580a489b879e7bb5ad082, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 1
+        maxCount: 2
+        minCount: 0
+        dropProbability: 0.3
+    - myName: "\u8718\u86DB"
+      type: 17
+      aimHeight: 0
+      prefab: {fileID: 6113334437771097814, guid: 4a81b221592bae043a70e59fe2ce50b4,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: c62a823f0bab2f24a8a94974099f6198, type: 3}
+      - {fileID: 8300000, guid: cff3ee8299a6a9c498b921c88e20135f, type: 3}
+      - {fileID: 8300000, guid: 1da5cf6db300c654aa28a795c6d2f402, type: 3}
+      IdleSounds:
+      - {fileID: 8300000, guid: cff3ee8299a6a9c498b921c88e20135f, type: 3}
+      - {fileID: 8300000, guid: 1da5cf6db300c654aa28a795c6d2f402, type: 3}
+      - {fileID: 8300000, guid: ba5eaf7393379a340ae422ad64e52ca6, type: 3}
+      - {fileID: 8300000, guid: c62a823f0bab2f24a8a94974099f6198, type: 3}
+      DeathSounds:
+      - {fileID: 8300000, guid: 2a382367a6dd8ad44be0582d60566b0e, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 17
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.5
+    - myName: "\u9AB7\u9AC5\u5C04\u624B"
+      type: 18
+      aimHeight: 1
+      prefab: {fileID: 4309054852241983881, guid: 069bd838fc9d7034a97a370aabd0f7d9,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: 1b6ac6f6323a7c54d8578a5f0a817cda, type: 3}
+      - {fileID: 8300000, guid: cc354660a6a476f45808306be86a98ea, type: 3}
+      - {fileID: 8300000, guid: 1b128a6c704429a4c83bd97340e8cae0, type: 3}
+      - {fileID: 8300000, guid: 111c5a7e45489b14a8fb46e7fceec8e8, type: 3}
+      IdleSounds:
+      - {fileID: 8300000, guid: 62ab3ad65ae18ee46baef43f2eb68a9b, type: 3}
+      - {fileID: 8300000, guid: eda81594eb761594aa1c4d300a4315cc, type: 3}
+      - {fileID: 8300000, guid: d9a8b48d1d328b141b9796cd44b94626, type: 3}
+      DeathSounds:
+      - {fileID: 8300000, guid: 7b90957d3aee7d7409d5668e5426089f, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 20
+        maxCount: 2
+        minCount: 0
+        dropProbability: 0.2
+      - type: 14
+        maxCount: 2
+        minCount: 0
+        dropProbability: 0.2
+      - type: 18
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.005
+    - myName: "\u5927\u8138\u602A"
+      type: 19
+      aimHeight: 1
+      prefab: {fileID: 1582758074796425749, guid: b7bf709a708855b4a8adda3bc68c1861,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: 02aa3d73c4ea4284695e36e37706abb2, type: 3}
+      IdleSounds:
+      - {fileID: 8300000, guid: e27ab06b9527c0e45befcf10ae868461, type: 3}
+      DeathSounds:
+      - {fileID: 8300000, guid: 42225ad272a2af343a6cc797437825cb, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 66
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.2
+      - type: 67
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.05
+    - myName: "\u5947\u7F8E\u62C9"
+      type: 20
+      aimHeight: 0.2
+      prefab: {fileID: 7049687694126586602, guid: 2f139c228fba36748885a44cdeca8c4a,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: 02aa3d73c4ea4284695e36e37706abb2, type: 3}
+      IdleSounds: []
+      DeathSounds:
+      - {fileID: 8300000, guid: aafd0518a91083f4e87cc17df950afcc, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 66
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.2
+    - myName: "\u8840\u8165\u722C\u866B"
+      type: 21
+      aimHeight: 0.1
+      prefab: {fileID: 3845699725574137988, guid: a69ba56554beaff469f8f2553a2163d0,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: 3b6c492643ac79d4ab330c97426559be, type: 3}
+      IdleSounds: []
+      DeathSounds:
+      - {fileID: 8300000, guid: aafd0518a91083f4e87cc17df950afcc, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 66
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.2
+    - myName: "\u8840\u8165\u50F5\u5C38"
+      type: 22
+      aimHeight: 1
+      prefab: {fileID: 7084373177370421042, guid: 3e5725eb80bdf034eb0e2eb4bdb823d7,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: 02aa3d73c4ea4284695e36e37706abb2, type: 3}
+      IdleSounds:
+      - {fileID: 8300000, guid: ff5fc8949eab8c54087173a3cfc58aa7, type: 3}
+      - {fileID: 8300000, guid: 5dbe7d4a573347b45883126980ca37ce, type: 3}
+      - {fileID: 8300000, guid: 8ea4171e2ccc114499c653f91219166d, type: 3}
+      DeathSounds:
+      - {fileID: 8300000, guid: 42225ad272a2af343a6cc797437825cb, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 68
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.05
+      - type: 66
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.2
+      - type: 67
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.05
+    - myName: "\u65E0\u5934\u5DE8\u4EBA"
+      type: 23
+      aimHeight: 2
+      prefab: {fileID: 4058259809843227633, guid: 041cd103547b1ae4aa10978628a0f3b0,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: 546c580761ca3164ba91394bb0d88606, type: 3}
+      IdleSounds: []
+      DeathSounds:
+      - {fileID: 8300000, guid: 7f7d1b2a46e04854a94b6728c87964bd, type: 3}
+      AttackSounds: []
+      dropItems:
+      - type: 72
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.15
+      - type: 74
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.3
+      - type: 77
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.2
+    - myName: "\u8214\u98DF\u8005"
+      type: 24
+      aimHeight: 0.1
+      prefab: {fileID: 1668149517109818280, guid: d059622d66c25f1489b96998549f70a7,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: 546c580761ca3164ba91394bb0d88606, type: 3}
+      IdleSounds: []
+      DeathSounds:
+      - {fileID: 8300000, guid: 930d83cbd1158fa46a3f547909cd3756, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 77
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.1
+      - type: 66
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.1
+    - myName: "\u8840\u8165\u5154"
+      type: 25
+      aimHeight: 0.3
+      prefab: {fileID: 7866418783620346669, guid: 485940871e8ce544db273e7320057bd2,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: 546c580761ca3164ba91394bb0d88606, type: 3}
+      IdleSounds: []
+      DeathSounds:
+      - {fileID: 8300000, guid: aafd0518a91083f4e87cc17df950afcc, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 71
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.01
+      - type: 83
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.15
+      - type: 67
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.05
+    - myName: "\u8840\u8165\u82E6\u529B\u6015"
+      type: 26
+      aimHeight: 1
+      prefab: {fileID: 7414787875106957381, guid: a85c0ee7fad691449a66f2002d4be564,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: be4d7192d1a5c67419bc9fd470dcbfdb, type: 3}
+      - {fileID: 8300000, guid: dccd1fbd4e7fabf40928646304b710af, type: 3}
+      - {fileID: 8300000, guid: 05553b7b02451534f8dfd8959152b23a, type: 3}
+      - {fileID: 8300000, guid: a39fa6dc681010d438562e5f5ff9deeb, type: 3}
+      IdleSounds: []
+      DeathSounds:
+      - {fileID: 8300000, guid: 7ec7c9b8d02ca5343b3721b8d0f8d3e5, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: 019aea5010a57c944926b8df123a5487, type: 3}
+      - {fileID: 8300000, guid: 4152c09a62e60134dbde29ef891a0d68, type: 3}
+      - {fileID: 8300000, guid: 97d7510ef659b5649bb54d8aca400826, type: 3}
+      dropItems:
+      - type: 72
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.04
+      - type: 76
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.3
+      - type: 78
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.05
+    - myName: "\u7329\u7EA2\u9A91\u58EB"
+      type: 27
+      aimHeight: 1
+      prefab: {fileID: 1571396645695599814, guid: 266624ebd14ffe645a359c843b8512db,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: fbde9dd17f3e28e45a464e2f97f0094f, type: 3}
+      IdleSounds: []
+      DeathSounds:
+      - {fileID: 8300000, guid: f827c21e6e6612148bbe2eb7aaa8955d, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 72
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.1
+      - type: 76
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.3
+      - type: 77
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.1
+    - myName: "\u7075\u6DB2\u9ECF\u9ECF\u602A"
+      type: 28
+      aimHeight: 1
+      prefab: {fileID: 8184628196368141858, guid: 0ae6ea5c985fc6a439eab2a812d6f2ec,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: 53b794e11d14c4943b214cfffe533864, type: 3}
+      IdleSounds: []
+      DeathSounds:
+      - {fileID: 8300000, guid: aafd0518a91083f4e87cc17df950afcc, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 69
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.15
+    - myName: "\u514B\u82CF\u9C81\u4E4B\u8111"
+      type: 29
+      aimHeight: 2.5
+      prefab: {fileID: 1293305464308704340, guid: c872804fc30a51e4d83cecaf314b1145,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: 02aa3d73c4ea4284695e36e37706abb2, type: 3}
+      IdleSounds: []
+      DeathSounds:
+      - {fileID: 8300000, guid: aafd0518a91083f4e87cc17df950afcc, type: 3}
+      AttackSounds:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+      dropItems:
+      - type: 78
+        maxCount: 10
+        minCount: 3
+        dropProbability: 0.8
+      - type: 70
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.1
+    - myName: "\u5FC3\u810F"
+      type: 30
+      aimHeight: 1
+      prefab: {fileID: 5314753898626894963, guid: a2c697c6a7c9a7a45b7fdb764ee9d9bc,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: 02aa3d73c4ea4284695e36e37706abb2, type: 3}
+      IdleSounds: []
+      DeathSounds:
+      - {fileID: 8300000, guid: aafd0518a91083f4e87cc17df950afcc, type: 3}
+      AttackSounds: []
+      dropItems: []
+    - myName: "\u773C\u775B1"
+      type: 31
+      aimHeight: 0
+      prefab: {fileID: 8492776168811727070, guid: 151dd3073b368ca408968a370940bd5c,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: 02aa3d73c4ea4284695e36e37706abb2, type: 3}
+      IdleSounds: []
+      DeathSounds:
+      - {fileID: 8300000, guid: aafd0518a91083f4e87cc17df950afcc, type: 3}
+      AttackSounds: []
+      dropItems:
+      - type: 77
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.05
+    - myName: "\u773C\u775B\u5B50\u5F39"
+      type: 32
+      aimHeight: 0
+      prefab: {fileID: 6959332321854516690, guid: 8b590e25cbcb66043901c7639f117a71,
+        type: 3}
+      HurtSounds:
+      - {fileID: 8300000, guid: 02aa3d73c4ea4284695e36e37706abb2, type: 3}
+      IdleSounds: []
+      DeathSounds:
+      - {fileID: 8300000, guid: aafd0518a91083f4e87cc17df950afcc, type: 3}
+      AttackSounds: []
+      dropItems:
+      - type: 77
+        maxCount: 1
+        minCount: 0
+        dropProbability: 0.3
+    plantslist:
+    - myName: "\u5411\u65E5\u8475"
+      Description: 
+      type: 0
+      Consume: 50
+      CD: 8
+      sprite: {fileID: 21300000, guid: 565e17bc732f9d643add848c6171068c, type: 3}
+      StartWithNoCD: 1
+      prefab: {fileID: 5381365983609941007, guid: ce197ec4a013ea6469ecfe06a2491c7c,
+        type: 3}
+    - myName: "\u8C4C\u8C46\u5C04\u624B"
+      Description: 
+      type: 1
+      Consume: 100
+      CD: 8
+      sprite: {fileID: 21300000, guid: 442e1051e38c3704887b391f3a9ac8aa, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 6795637852751168703, guid: 304a39df71f9c5c4292b42c34f6ffb51,
+        type: 3}
+    - myName: "\u575A\u679C\u5899"
+      Description: 
+      type: 2
+      Consume: 50
+      CD: 40
+      sprite: {fileID: 21300000, guid: d055c7988ba865640a959fd2cb5cd3d3, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 6687117519927606929, guid: 099739690b1de5946a1318ed4afc764f,
+        type: 3}
+    - myName: "\u571F\u8C46\u5730\u96F7"
+      Description: 
+      type: 3
+      Consume: 25
+      CD: 30
+      sprite: {fileID: 21300000, guid: cb717f135abeae74a9c5e120ced8dfa3, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 594597565000787149, guid: 1f5b0a40a44a585418f6af84d7c17823,
+        type: 3}
+    - myName: "\u4ED9\u4EBA\u638C"
+      Description: 
+      type: 4
+      Consume: 50
+      CD: 40
+      sprite: {fileID: 21300000, guid: b544edf5103d2924787fe82b2b197ea5, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 8316668037747152221, guid: 5048868a66a1307418a9a28140d837c4,
+        type: 3}
+    - myName: "\u82A6\u835F"
+      Description: 
+      type: 5
+      Consume: 125
+      CD: 25
+      sprite: {fileID: 21300000, guid: e2b1bbe4d3b8e524aac9c4a3a0ff7c56, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 1959621646557084919, guid: d7ff10d2c66fb824493e694431490203,
+        type: 3}
+    - myName: "\u67AF\u840E\u5C04\u624B"
+      Description: 
+      type: 6
+      Consume: 175
+      CD: 15
+      sprite: {fileID: 21300000, guid: 97ad31b0391233b47a78e12e650a0464, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 3263375913624301800, guid: 9fbca14e52438f540922ad6ab715d12d,
+        type: 3}
+    - myName: "\u67AF\u840E\u5927\u5634\u82B1"
+      Description: 
+      type: 7
+      Consume: 175
+      CD: 15
+      sprite: {fileID: 21300000, guid: 12e50f7d733e3a546a1a35512de54017, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 5411432065722019529, guid: 36e3ea98d60144e4e969d507d722d06e,
+        type: 3}
+    - myName: "\u9F99\u9AA8\u70AE"
+      Description: 
+      type: 8
+      Consume: 150
+      CD: 35
+      sprite: {fileID: 21300000, guid: 05547102c18c9e040a9a1e1bfc470999, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 6862104270402393973, guid: 070ce119015326e49a554c009db3b06d,
+        type: 3}
+    - myName: "\u706B\u9F99\u8349"
+      Description: 
+      type: 9
+      Consume: 200
+      CD: 20
+      sprite: {fileID: 21300000, guid: 2f94f5f1af8d47140a4f40a27ba16d5e, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 8075503510170035529, guid: 176e62d23bed2f74f8066422b6454bab,
+        type: 3}
+    - myName: "\u67AF\u840E\u5411\u65E5\u8475"
+      Description: 
+      type: 10
+      Consume: 75
+      CD: 20
+      sprite: {fileID: 21300000, guid: d90705e86c8fb3944a80d5df6254434b, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 4925202606432145728, guid: 52c555708a6f4de43bf8c0a3e4a58309,
+        type: 3}
+    - myName: "\u8C4C\u8C46\u8FEB\u51FB\u70AE"
+      Description: 
+      type: 11
+      Consume: 150
+      CD: 15
+      sprite: {fileID: 21300000, guid: 1a2c25e7b014c56459bbbaf2567a9483, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 1550838311348167061, guid: dc2bc7da088923f4aa9d836e7e5241e0,
+        type: 3}
+    - myName: Dream
+      Description: 
+      type: 12
+      Consume: 250
+      CD: 30
+      sprite: {fileID: 21300000, guid: c1b7b7090562a3441896759c73834742, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 5311609357601690080, guid: 83dd0c1d92f1914429d4976bd3c14fcc,
+        type: 3}
+    - myName: "\u7329\u7EA2\u98DF\u5C38\u82B1"
+      Description: 
+      type: 13
+      Consume: 150
+      CD: 25
+      sprite: {fileID: 21300000, guid: ecec5d20cc5ce5d4ab7d7a651bac7452, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 6717450974882776978, guid: 5bc981f2cd7f2214d935ee4e6a9073f8,
+        type: 3}
+    - myName: "\u673A\u67AA\u5C04\u624B"
+      Description: 
+      type: 14
+      Consume: 500
+      CD: 45
+      sprite: {fileID: 21300000, guid: 36ffb268722a982499c73104d70d1391, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 3553821485077616038, guid: e923f79b0a8ecb647aea698d22da25e7,
+        type: 3}
+    - myName: "\u751C\u6D46\u679C"
+      Description: 
+      type: 15
+      Consume: 125
+      CD: 25
+      sprite: {fileID: 21300000, guid: 9a9c701f1f956644e9ebe497798428bc, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 8566948073037487371, guid: 088a30dabcbcaf247abfed8c89e2f56c,
+        type: 3}
+    - myName: "\u575A\u679C\u4FDD\u9F84\u7403"
+      Description: 
+      type: 16
+      Consume: 0
+      CD: 25
+      sprite: {fileID: 21300000, guid: d055c7988ba865640a959fd2cb5cd3d3, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 7688962253330618031, guid: 2bd51aee62e15ff43862ef5e09f78bcb,
+        type: 3}
+    - myName: "\u7EA2\u6E29\u575A\u679C\u4FDD\u9F84\u7403"
+      Description: 
+      type: 17
+      Consume: 0
+      CD: 25
+      sprite: {fileID: 21300000, guid: 2c273801f12e6fa428700b20f03b8901, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 6955281149978615055, guid: de01a20bc9eefb648b7d2cb0521226f8,
+        type: 3}
+    - myName: "\u575A\u679C\u5927\u4FDD\u9F84\u7403"
+      Description: 
+      type: 18
+      Consume: 0
+      CD: 25
+      sprite: {fileID: 21300000, guid: 90c603b052c8c5149a1325a061fb637d, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 4868682759079860449, guid: da30241e98844304daa8fe7e64dfbdc9,
+        type: 3}
+    - myName: "\u8840\u8165\u82B1\u82DE"
+      Description: 
+      type: 19
+      Consume: 100
+      CD: 20
+      sprite: {fileID: 21300000, guid: 07807744e059e87458165c7741163c98, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 6435714245380684395, guid: dc93ab11ea7272a4784eb73a2d72b271,
+        type: 3}
+    - myName: "\u5DF2\u901D\u5C04\u624B"
+      Description: 
+      type: 20
+      Consume: 225
+      CD: 30
+      sprite: {fileID: 21300000, guid: 3eeaf9195bd251b4d94491acd5224d0f, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 4489286523699597909, guid: 3ac4ea90d4a1193408cefff336ea13ce,
+        type: 3}
+    - myName: "\u7329\u7EA2\u8611\u83C7"
+      Description: 
+      type: 21
+      Consume: 50
+      CD: 20
+      sprite: {fileID: 21300000, guid: dc946e6832bc6a940b472ab121f30ebc, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 7187732771338757335, guid: 8d579b506368a7341851c690e63365d0,
+        type: 3}
+    - myName: "\u8424\u706F\u6811"
+      Description: 
+      type: 22
+      Consume: 25
+      CD: 20
+      sprite: {fileID: 21300000, guid: 76fc26f8915662548a0d504926176c74, type: 3}
+      StartWithNoCD: 1
+      prefab: {fileID: 6329912048000487173, guid: 6b9a823552cb88c41a2b4332bcb6dd0f,
+        type: 3}
+    - myName: "\u5DF2\u901D\u4E4B\u82B1"
+      Description: 
+      type: 23
+      Consume: 0
+      CD: 40
+      sprite: {fileID: 21300000, guid: bb04626cd4878724c82c24658a85fc69, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 8863406685844216419, guid: bd7b2a84ea127724384706f7a15956cb,
+        type: 3}
+    - myName: "\u82B1\u76C6"
+      Description: 
+      type: 24
+      Consume: 25
+      CD: 10
+      sprite: {fileID: 21300000, guid: 455490e258af4dd4c95804e7991557a7, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 6188063397228748465, guid: 1454bddcdd5767b4a8ba0715a5f3b392,
+        type: 3}
+    - myName: "\u5145\u80FD\u5C04\u624B"
+      Description: 
+      type: 25
+      Consume: 250
+      CD: 20
+      sprite: {fileID: 21300000, guid: 6c849dbdf13eab44eb3505ad293c00f4, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 7780204674830276246, guid: 660208c94de1e684ab2ba11a3cacef6d,
+        type: 3}
+    - myName: "\u51C0\u5316\u6A31\u6843"
+      Description: 
+      type: 26
+      Consume: 100
+      CD: 30
+      sprite: {fileID: 21300000, guid: a44b416b92cf4fa40a8cee073c220645, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 5553979892518918355, guid: 45ba119c98d10404d8869613bd757a8e,
+        type: 3}
+    - myName: "\u8377\u53F6"
+      Description: 
+      type: 27
+      Consume: 25
+      CD: 8
+      sprite: {fileID: 21300000, guid: 61803eb349214ae47a97f0b41d4b844c, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 4114961259320110348, guid: e5f4a5ed83c11ce42a74c13d900b9ffb,
+        type: 3}
+    - myName: "\u7AE0\u9C7C\u6D77\u8349"
+      Description: 
+      type: 28
+      Consume: 75
+      CD: 8
+      sprite: {fileID: 21300000, guid: db2618a98f0b5dc48a2bd0a7a959477a, type: 3}
+      StartWithNoCD: 0
+      prefab: {fileID: 3408120087433460543, guid: 586a8b874bb3465469bd8449bc713f96,
+        type: 3}
+    blockList:
+    - prefab: {fileID: 1098736962399290009, guid: 945339ad2f1f31b4eb53869338554abb,
+        type: 3}
+      Strength: 15
+      StrengthLevel: 0
+      DropItemType: 3
+      Btype: 0
+      Stype: 1
+      breakSounds: Wood
+      BreakSprite: {fileID: 21300000, guid: 70487a8b9aa1ed64ab49f71b8d722ab3, type: 3}
+    - prefab: {fileID: 2650396627657725591, guid: 38f591c887182de4a95a0539304de820,
+        type: 3}
+      Strength: 0.1
+      StrengthLevel: 0
+      DropItemType: 2
+      Btype: 1
+      Stype: 1
+      breakSounds: Grass
+      BreakSprite: {fileID: 21300000, guid: ccd528ad440b21041bd20a107f547c39, type: 3}
+    - prefab: {fileID: 1255102236854190255, guid: 8e621026b4e7df547a792c9a461c264e,
+        type: 3}
+      Strength: 50
+      StrengthLevel: 1
+      DropItemType: 28
+      Btype: 2
+      Stype: 2
+      breakSounds: Stone
+      BreakSprite: {fileID: 21300000, guid: f03da980e986f07468c6eac4b9a9d7d7, type: 3}
+    - prefab: {fileID: 7520777491810906034, guid: 96b4542090c35e94e8b6b718d1f12e85,
+        type: 3}
+      Strength: 35
+      StrengthLevel: 1
+      DropItemType: 31
+      Btype: 3
+      Stype: 2
+      breakSounds: Stone
+      BreakSprite: {fileID: 21300000, guid: 4a1ac113370cb1f4c9c3a16dfa2c0b01, type: 3}
+    - prefab: {fileID: 1918026457530343380, guid: 74bc96ff7c5bb6a4ebb58012d3471f88,
+        type: 3}
+      Strength: 1
+      StrengthLevel: 0
+      DropItemType: 32
+      Btype: 4
+      Stype: 1
+      breakSounds: Grass
+      BreakSprite: {fileID: 21300000, guid: d40687e48ca23f541adf9ac233d13ab2, type: 3}
+    - prefab: {fileID: 8215378663935602323, guid: e4cecc6ecc97cc04dada014530b86ade,
+        type: 3}
+      Strength: 5
+      StrengthLevel: 0
+      DropItemType: 63
+      Btype: 5
+      Stype: 0
+      breakSounds: Slime
+      BreakSprite: {fileID: 21300000, guid: 7eee820b78e455e49a318c855b6bc2e0, type: 3}
+    - prefab: {fileID: 4794271867177205721, guid: 037e27e1f55df764eb1b6bf02b3db1a1,
+        type: 3}
+      Strength: 5
+      StrengthLevel: 0
+      DropItemType: 0
+      Btype: 6
+      Stype: 1
+      breakSounds: Grass
+      BreakSprite: {fileID: 21300000, guid: ff6dec9083dad6c4995c1c1c1f112fe9, type: 3}
+    - prefab: {fileID: 6421909906913389035, guid: 63d28219c22668e42941986f486b212f,
+        type: 3}
+      Strength: 5
+      StrengthLevel: 0
+      DropItemType: 0
+      Btype: 7
+      Stype: 1
+      breakSounds: Grass
+      BreakSprite: {fileID: 21300000, guid: ff6dec9083dad6c4995c1c1c1f112fe9, type: 3}
+    - prefab: {fileID: 1359610030530134357, guid: 224e25d93f0c84a4ea35029d07195082,
+        type: 3}
+      Strength: 1
+      StrengthLevel: 0
+      DropItemType: 68
+      Btype: 8
+      Stype: 1
+      breakSounds: Grass
+      BreakSprite: {fileID: -1212290121, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+    - prefab: {fileID: 4444957706711393255, guid: 2bfdd719ea8801841ba14872bb560440,
+        type: 3}
+      Strength: 1
+      StrengthLevel: 0
+      DropItemType: 67
+      Btype: 9
+      Stype: 1
+      breakSounds: Grass
+      BreakSprite: {fileID: -212967241, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+    spritelist:
+    - type: 0
+      sprites:
+      - {fileID: 21300000, guid: 9ab61452886078a46a161b47d53caacf, type: 3}
+      - {fileID: 767172686, guid: 61cb92fdc3967b645a05b92278cf1a33, type: 3}
+      - {fileID: 1058516771, guid: 61cb92fdc3967b645a05b92278cf1a33, type: 3}
+      - {fileID: -953531054, guid: 61cb92fdc3967b645a05b92278cf1a33, type: 3}
+      - {fileID: -2098276295, guid: 61cb92fdc3967b645a05b92278cf1a33, type: 3}
+      - {fileID: 1467128960, guid: 61cb92fdc3967b645a05b92278cf1a33, type: 3}
+      - {fileID: -988717413, guid: 61cb92fdc3967b645a05b92278cf1a33, type: 3}
+      - {fileID: 434038796, guid: 61cb92fdc3967b645a05b92278cf1a33, type: 3}
+      - {fileID: 1820708593, guid: 61cb92fdc3967b645a05b92278cf1a33, type: 3}
+      - {fileID: -360938585, guid: 61cb92fdc3967b645a05b92278cf1a33, type: 3}
+      - {fileID: -950034049, guid: 61cb92fdc3967b645a05b92278cf1a33, type: 3}
+    - type: 1
+      sprites:
+      - {fileID: 29272534, guid: a84e717ba8b4301429c18b23013b5c73, type: 3}
+      - {fileID: 1767596230, guid: a84e717ba8b4301429c18b23013b5c73, type: 3}
+      - {fileID: -28143564, guid: a84e717ba8b4301429c18b23013b5c73, type: 3}
+      - {fileID: -732098946, guid: a84e717ba8b4301429c18b23013b5c73, type: 3}
+      - {fileID: -1594618568, guid: a84e717ba8b4301429c18b23013b5c73, type: 3}
+      - {fileID: -1516352872, guid: a84e717ba8b4301429c18b23013b5c73, type: 3}
+      - {fileID: -1568289088, guid: a84e717ba8b4301429c18b23013b5c73, type: 3}
+      - {fileID: -555004719, guid: a84e717ba8b4301429c18b23013b5c73, type: 3}
+    particlelist:
+    - type: 0
+      Particle: {fileID: 5021995554752029846, guid: 5fc84008ff58fcc40bb44f608508e638,
+        type: 3}
+    - type: 1
+      Particle: {fileID: 3043385551451285989, guid: 97fce8e54cd9f7d4bb456a34c35c61eb,
+        type: 3}
+    - type: 2
+      Particle: {fileID: 1307186094605531402, guid: a56b7c56f939bff4bb255da8a898b629,
+        type: 3}
+    - type: 3
+      Particle: {fileID: 5784788528927371394, guid: cc304cde7db37ee4db6850c16fcb4588,
+        type: 3}
+    - type: 4
+      Particle: {fileID: 2901419266876013720, guid: 5b0e9ab10f8865040a58d75e3f3bfec6,
+        type: 3}
+    - type: 5
+      Particle: {fileID: 6484735068729795962, guid: c311114bae91c944d9efbf3cff1550a1,
+        type: 3}
+    - type: 6
+      Particle: {fileID: 2453465352034452960, guid: 642dfb5902f688249b33ba5b87955a3a,
+        type: 3}
+    - type: 7
+      Particle: {fileID: 2901419266876013720, guid: 66ab5cde1d987214896cbda8991cd3c0,
+        type: 3}
+    - type: 8
+      Particle: {fileID: 4921275839572295895, guid: c999b433e44249541b533bfba71884a2,
+        type: 3}
+    bulletlist:
+    - type: 0
+      bullet: {fileID: 0}
+    - type: 1
+      bullet: {fileID: 462016671758357289, guid: 5e2bd50ff78c62a4e9da97ed307a6735,
+        type: 3}
+    - type: 2
+      bullet: {fileID: 8195383994876768750, guid: ce36d0e8b77675c40b417677c636fba1,
+        type: 3}
+--- !u!1 &2795465610750528504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1737542228716694334}
+  - component: {fileID: 6508203653193606452}
+  - component: {fileID: 5703759892335969050}
+  - component: {fileID: 5154423506553965659}
+  - component: {fileID: 1941803818452213271}
+  - component: {fileID: 1529368391353321780}
+  m_Layer: 0
+  m_Name: Systems
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1737542228716694334
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2795465610750528504}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1591396419020012788}
+  - {fileID: 2391505556421111508}
+  - {fileID: 5058124910774833179}
+  - {fileID: 3588911682699294467}
+  - {fileID: 8154268705846313472}
+  - {fileID: 1959480860588870562}
+  - {fileID: 5424089522683618092}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6508203653193606452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2795465610750528504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725288fa7fcd26947ab2fd2287c65694, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nowUserInfo:
+    UserName: 
+    index: 0
+    CreateTime:
+      Year: 0
+      Month: 0
+      Day: 0
+      Hour: 0
+      Minute: 0
+      Second: 0
+    LastSaveTime:
+      Year: 0
+      Month: 0
+      Day: 0
+      Hour: 0
+      Minute: 0
+      Second: 0
+  userList:
+    users: []
+  nowUserData:
+    NowInGameMenuSceneName: 
+    FirstGame: 0
+    Username: 
+    levelName: 
+    sceneName: 
+    LevelType: 0
+    CardSlotCount: 0
+    PlayerMaxHealth: 0
+    items: []
+    armorItems: []
+    items_inChest: []
+    items_inChest1: []
+    _levelFinishData: []
+    OwnedPlants: 
+    UnLockedNodes: 
+    storeItemsID: []
+    overWorldInfo:
+      SceneName: 
+      loaded: 0
+      PlayerPosition: {x: 0, y: 0, z: 0}
+      playerMaxHeath: 0
+      PlayerHealth: 0
+      PlayerHunger: 0
+      PlayerHunger_over: 0
+      BlocksPosition: []
+      BlocksType: 
+    overWorldInfos: []
+    UnLockCraftTable: 0
+    UnLockChest: 0
+    UnLockChest1: 0
+    UnLockStore: 0
+  nowLeveldata:
+    LevelName: 
+    LevelType: 0
+    canLoad: 0
+    templeInventoryItems: []
+    templeArmorItems: []
+    SunCount: 0
+    playerInfo:
+      transformRight: {x: 0, y: 0, z: 0}
+      WorldPosition: {x: 0, y: 0, z: 0}
+      health: 0
+      Hunger: 0
+      Hunger_over: 0
+      Exp: 0
+      ExpLevel: 0
+      maxHealth: 0
+    enemyInfos: []
+    plantsinfos: []
+    cardsinfos: []
+    items: []
+    levelInfo:
+      nowWave: 0
+      WaveTimer: 0
+      StopCountTimer: 0
+    blocksinfos: []
+    gridinfos: []
+    mineCarPos: []
+--- !u!114 &5703759892335969050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2795465610750528504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3a010cd1b9c5694d9094d59c32b64a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5154423506553965659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2795465610750528504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2db7c2e928abeab42a48f1a4d79ed26f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1941803818452213271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2795465610750528504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba37549ac1d37242b04b9e5dbf3dfc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemID: 111
+  ItemName: "\u6355\u8089\u8005"
+  durability: 100
+  maxAmount: 1
+  sprite: {fileID: -735501667, guid: 19cbf3be46711674d86e3c8e370d4e42, type: 3}
+  textColor: {r: 1, g: 0.18560539, b: 0, a: 1}
+  descriptions: []
+--- !u!114 &1529368391353321780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2795465610750528504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd17ec9228b8cd24d94b543f17f7a6e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CraftName: "\u8BC5\u5492\u4E4B\u5251"
+  itemSources: 000000004e00000000000000000000004900000000000000000000004200000000000000
+  targetItemType: 95
+  targetItemNum: 1
+--- !u!1 &3016108471310190910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2391505556421111508}
+  - component: {fileID: 7301653402749719503}
+  - component: {fileID: 7214436456076511905}
+  m_Layer: 0
+  m_Name: SoundSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2391505556421111508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3016108471310190910}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 22.193333, y: 7.5788574, z: 22.921844}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1737542228716694334}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7301653402749719503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3016108471310190910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bedb95ae65f789498a5dadf01dfb615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalMixer: {fileID: 24300002, guid: 10d7bbcb16c537641bb622a59e4d2ac5, type: 2}
+  MusicMixer: {fileID: -5411493265261806557, guid: 10d7bbcb16c537641bb622a59e4d2ac5,
+    type: 2}
+  SoundMixer: {fileID: 1430452198118384198, guid: 10d7bbcb16c537641bb622a59e4d2ac5,
+    type: 2}
+  resources:
+    list:
+    - clipName: NoSound
+      clips: []
+    - clipName: Eat
+      clips:
+      - {fileID: 8300000, guid: 9d11803ae5377c940960a3f15483e180, type: 3}
+      - {fileID: 8300000, guid: f96c2e1466105db4aa48f577298ba5de, type: 3}
+      - {fileID: 8300000, guid: 57f6deb7691043947b90b7c566fa5764, type: 3}
+    - clipName: EatFull
+      clips:
+      - {fileID: 8300000, guid: a85b77dab3eaa8f4d93ce1b68be2cc85, type: 3}
+    - clipName: Exp
+      clips:
+      - {fileID: 8300000, guid: 4e05f0eb5ce44704d831d694baf4150a, type: 3}
+      - {fileID: 8300000, guid: cf2341af050d6554681c0c39a40eb664, type: 3}
+    - clipName: GrassWalk
+      clips:
+      - {fileID: 8300000, guid: e2543a90466018a41a6e70c3a3c4158b, type: 3}
+      - {fileID: 8300000, guid: 8bab7424c30dc2e418ae9e858fef7743, type: 3}
+      - {fileID: 8300000, guid: 815177237e51aa14c88a178916fd4038, type: 3}
+      - {fileID: 8300000, guid: 16c91021904e8644f94efc9f12974d7e, type: 3}
+      - {fileID: 8300000, guid: cdaa5f40c0862ef4a9a0bad7e4dbf0bb, type: 3}
+    - clipName: SandWalk
+      clips:
+      - {fileID: 8300000, guid: 6e2ffa6bf36a83243823c93707440e98, type: 3}
+      - {fileID: 8300000, guid: 80f6c9d955fe37c428f3072631b5ca6d, type: 3}
+      - {fileID: 8300000, guid: aaeed0c666adfb84caf6577208132403, type: 3}
+      - {fileID: 8300000, guid: d375a1b6b2b97244383607dbd01461b8, type: 3}
+      - {fileID: 8300000, guid: 7bdf91b5b49bf51428c6067b17c3f9b3, type: 3}
+    - clipName: StoneWalk
+      clips:
+      - {fileID: 8300000, guid: c14e330404a44f5478c53ea3c55940b1, type: 3}
+      - {fileID: 8300000, guid: 3fb55c0b4544e084a80811cf780d9173, type: 3}
+      - {fileID: 8300000, guid: 4b664cb2a3f7d4d4783e7aa972a36a40, type: 3}
+      - {fileID: 8300000, guid: 25749b48cad40594da86bee06a1adf74, type: 3}
+      - {fileID: 8300000, guid: 4f1d5a7d65f57e747b4234694be0cf99, type: 3}
+      - {fileID: 8300000, guid: a50632c10e677054d9de25da7c8e82a1, type: 3}
+    - clipName: Click
+      clips:
+      - {fileID: 8300000, guid: f014af3cc7e357f47a40f117e7316fb1, type: 3}
+    - clipName: Wood
+      clips:
+      - {fileID: 8300000, guid: 36b6cba133b835e429b784a122a96688, type: 3}
+      - {fileID: 8300000, guid: cde377433df393a449e1a01909ad3bad, type: 3}
+      - {fileID: 8300000, guid: b661866a2fbd34f4285f7ce00439e075, type: 3}
+    - clipName: WoodStep
+      clips:
+      - {fileID: 8300000, guid: 34f6bed7c1c649f4baf532952e8a879e, type: 3}
+      - {fileID: 8300000, guid: 0ed81333218604248b3616625ada1f45, type: 3}
+      - {fileID: 8300000, guid: 00110c76022ff54479a7df8831b8c499, type: 3}
+      - {fileID: 8300000, guid: 1ca5f2d5d074ab649a727bb37b621477, type: 3}
+      - {fileID: 8300000, guid: db18ac84fe27063438260f41938ff620, type: 3}
+      - {fileID: 8300000, guid: c9d4e582aff266d4c8931e95269c5a95, type: 3}
+    - clipName: WeakPunch
+      clips:
+      - {fileID: 8300000, guid: 98be055090fface4e9072169040caad4, type: 3}
+      - {fileID: 8300000, guid: d2f76340b7faf33469dae084b2e99c44, type: 3}
+      - {fileID: 8300000, guid: f1fa4131b1fc69b42a9a56dfc921203a, type: 3}
+      - {fileID: 8300000, guid: 70494391209bd25448486388bab5e089, type: 3}
+    - clipName: StrongPunch
+      clips:
+      - {fileID: 8300000, guid: e1580f6403c646042bbb60314a87f459, type: 3}
+      - {fileID: 8300000, guid: 2a45f7b42622d4a4aa0270840ea1930a, type: 3}
+      - {fileID: 8300000, guid: 7f9ded1a33181a543a024088562d5a34, type: 3}
+      - {fileID: 8300000, guid: 14a7fc38108c25d48b6d43a549cd41f8, type: 3}
+      - {fileID: 8300000, guid: 3ae164a22762e1241b1b7b79833b111d, type: 3}
+      - {fileID: 8300000, guid: edd7b40ed1c49a14983d20c34be53e4e, type: 3}
+    - clipName: HugeWave
+      clips:
+      - {fileID: 8300000, guid: 9b720b1944a7a4f409d5b983313ac7c1, type: 3}
+      - {fileID: 8300000, guid: e63ddc662eb7f9b439a30e6a08b63c47, type: 3}
+      - {fileID: 8300000, guid: aa2f475f187bbdb459aa9492bfbbab43, type: 3}
+      - {fileID: 8300000, guid: fe351ee7553dc2148803fe3ec2498113, type: 3}
+    - clipName: Grass
+      clips:
+      - {fileID: 8300000, guid: 33df3182b7ca6de4fbf42b289b862b0f, type: 3}
+      - {fileID: 8300000, guid: 2031580d3063baf40a3edd9996c63390, type: 3}
+      - {fileID: 8300000, guid: c94e9a7871b2f0b41a16f76da01f4652, type: 3}
+    - clipName: Stone
+      clips:
+      - {fileID: 8300000, guid: 2d61b90e0cbb28a42a51500753081a40, type: 3}
+      - {fileID: 8300000, guid: 6f7fd6cd9b2b51a4a80c11c42d6f335d, type: 3}
+      - {fileID: 8300000, guid: 0076290407e28b14584e9c15abb0afcc, type: 3}
+      - {fileID: 8300000, guid: 1e70ac8fe98922041a9420b72ae57319, type: 3}
+    - clipName: Pop
+      clips:
+      - {fileID: 8300000, guid: e59efa5f204bc434dbf6c54c193c15dc, type: 3}
+    - clipName: KeyBoard
+      clips:
+      - {fileID: 8300000, guid: b03286ff373e371479cb9419a52d61e4, type: 3}
+    - clipName: FirePea
+      clips:
+      - {fileID: 8300000, guid: 51b4be4e598349c4194b7d9249c71102, type: 3}
+    - clipName: Ignite
+      clips:
+      - {fileID: 8300000, guid: bfcb9da7aab11e14bbce7ad5f8081568, type: 3}
+      - {fileID: 8300000, guid: 0a5cd63683c5537419c924e9301e02ed, type: 3}
+    - clipName: Wave
+      clips:
+      - {fileID: 8300000, guid: c8371ab39e00d7844b98f9ed6331e052, type: 3}
+      - {fileID: 8300000, guid: 5919451dbe0d330499513cf70401ab8e, type: 3}
+      - {fileID: 8300000, guid: b290bd6af7f3eea4498a2911cd8de60d, type: 3}
+      - {fileID: 8300000, guid: 35d094b613c48904a82d1dbae2c125e5, type: 3}
+      - {fileID: 8300000, guid: a7ccc4928502a42448cb77774ad5d04c, type: 3}
+      - {fileID: 8300000, guid: 71d32d67f3e2cef42b3e7fc5b058a323, type: 3}
+      - {fileID: 8300000, guid: 0fdb8b914567e6b4aa3dc76b9be88f5e, type: 3}
+      - {fileID: 8300000, guid: 44f6dad3b2055d7419acae639a0b36f0, type: 3}
+    - clipName: Bow
+      clips:
+      - {fileID: 8300000, guid: c28111bf41871d34289c0b761ecef3d1, type: 3}
+      - {fileID: 8300000, guid: 3fb3f2d55c39f954596c04b4dfe8133c, type: 3}
+      - {fileID: 8300000, guid: ab3b4fbf86a141a4da72045494634b19, type: 3}
+      - {fileID: 8300000, guid: 4dd9c893949ed3547a417d786fbe24e7, type: 3}
+      - {fileID: 8300000, guid: ffbe0600d0d860f4eb3d0e48810d6e07, type: 3}
+    - clipName: Shock
+      clips:
+      - {fileID: 8300000, guid: 3837bc0c3b8a8ff40a7e15a3c510e19f, type: 3}
+    - clipName: Chest
+      clips:
+      - {fileID: 8300000, guid: d89b430ea4cc951439e736d97fd36529, type: 3}
+    - clipName: Plant
+      clips:
+      - {fileID: 8300000, guid: ae522f234580a9e4cafa2b69d5568481, type: 3}
+      - {fileID: 8300000, guid: f6ca0b90fc9c69247a58787fa7b6bdea, type: 3}
+    - clipName: Stare
+      clips:
+      - {fileID: 8300000, guid: e82c848edbbfc934a87802c33efd6f70, type: 3}
+    - clipName: Drink
+      clips:
+      - {fileID: 8300000, guid: c4dac55395d61a2488c204faf0b7bc0d, type: 3}
+    - clipName: CrazyDave
+      clips:
+      - {fileID: 8300000, guid: 335fb29902b5b7e45bb788af9405e0a4, type: 3}
+      - {fileID: 8300000, guid: dac93829ae768c74bb891831b89a7030, type: 3}
+      - {fileID: 8300000, guid: 35abb443d28c450479e9f26280667b28, type: 3}
+      - {fileID: 8300000, guid: 97a8190a7650bbf4aa7941f3c22bcf39, type: 3}
+      - {fileID: 8300000, guid: 5b6fcbd974848a542ab19a4231e70238, type: 3}
+      - {fileID: 8300000, guid: 9769af4bbc1216742a65244b1df2acd1, type: 3}
+      - {fileID: 8300000, guid: e23933b7c82e07e488a1156b5d2c3da4, type: 3}
+      - {fileID: 8300000, guid: 5b63f9a0ed81911409a714d413f9aed6, type: 3}
+      - {fileID: 8300000, guid: c4afa21b22386c740ac3a3e8f42e02f8, type: 3}
+      - {fileID: 8300000, guid: beb42917c4991c44b8c51eba9d21311e, type: 3}
+      - {fileID: 8300000, guid: 439bac5d8fc3e7844900f91c7db5532e, type: 3}
+    - clipName: Treat
+      clips:
+      - {fileID: 8300000, guid: eb1d49627e3ca314082f6350b8d3abe0, type: 3}
+    - clipName: Explode
+      clips:
+      - {fileID: 8300000, guid: 019aea5010a57c944926b8df123a5487, type: 3}
+      - {fileID: 8300000, guid: 4152c09a62e60134dbde29ef891a0d68, type: 3}
+      - {fileID: 8300000, guid: 97d7510ef659b5649bb54d8aca400826, type: 3}
+    - clipName: Slime
+      clips:
+      - {fileID: 8300000, guid: be559f67f437fd341958df96b6b3373b, type: 3}
+      - {fileID: 8300000, guid: da75d8fd47dd91b4dbe811c15ebd01fb, type: 3}
+      - {fileID: 8300000, guid: 2a0e5b2f23a411749b3c2f7d6e522b26, type: 3}
+      - {fileID: 8300000, guid: 8d7bb0c60ef71ac41a9813e23fed54a2, type: 3}
+    - clipName: Swim
+      clips:
+      - {fileID: 8300000, guid: 659e31fa15a6398479a0d8a31ac7cc20, type: 3}
+      - {fileID: 8300000, guid: bdb7e8fd65cc16c458f50e8010f745ab, type: 3}
+      - {fileID: 8300000, guid: a3f3751ee49917f47911c69566ce8500, type: 3}
+    - clipName: Splash
+      clips:
+      - {fileID: 8300000, guid: 84d34e77fa85d9a48930b6b149dd0e97, type: 3}
+      - {fileID: 8300000, guid: 55da0e458bf0e0143a0c60baa5f4bff5, type: 3}
+    - clipName: BossRoar
+      clips:
+      - {fileID: 8300000, guid: 8e7ce5672d58bb04ea8f8acf37a0226e, type: 3}
+    - clipName: HIT
+      clips:
+      - {fileID: 8300000, guid: 3c078ac0f47173f46a6e79ec91c6f50a, type: 3}
+      - {fileID: 8300000, guid: 65adcc6f5493c8945ab5554fdb386b06, type: 3}
+      - {fileID: 8300000, guid: 75bc3f78c50dfec4b8e94b4a89075f90, type: 3}
+  musicResources:
+    list:
+    - clipName: CrazyDave
+      clips:
+      - {fileID: 8300000, guid: ba29edc0ad8082b49841abfd41431a85, type: 3}
+    - clipName: MoogCity2
+      clips:
+      - {fileID: 8300000, guid: 5068144cd2ba42240b57fd92da24b1f7, type: 3}
+    - clipName: SelectCard
+      clips:
+      - {fileID: 8300000, guid: fce3e567a13d6b342b423442840710e8, type: 3}
+    - clipName: WinMusic
+      clips:
+      - {fileID: 8300000, guid: a31934e5ffeaf2c49b1271acbc16d8a1, type: 3}
+    - clipName: Fight1
+      clips:
+      - {fileID: 8300000, guid: 9fa2f4c2fa7b73e43aab990c5ef876a0, type: 3}
+    - clipName: Lose
+      clips:
+      - {fileID: 8300000, guid: 1a359c485e199a641b41500f9515d3ed, type: 3}
+    - clipName: Minecraft
+      clips:
+      - {fileID: 8300000, guid: 2de096a3f1a721344ab315ad3c2ad9e5, type: 3}
+    - clipName: "\u6F5C\u5728\u5371\u673A"
+      clips:
+      - {fileID: 8300000, guid: 0b7e7bde583b0f841ac8baef6f3f566c, type: 3}
+    - clipName: "\u5EAD\u9662"
+      clips:
+      - {fileID: 8300000, guid: 1d4a0747d99fa7e4e924229c7b9aaa45, type: 3}
+    - clipName: "\u591C\u95F4"
+      clips:
+      - {fileID: 8300000, guid: fef78a5be49f0894788b6af74a8172d5, type: 3}
+    - clipName: pigstep
+      clips:
+      - {fileID: 8300000, guid: 7cc19dc37f8c7c6468444d11d2af2bdc, type: 3}
+    - clipName: crimson
+      clips:
+      - {fileID: 8300000, guid: e1d49996a660feb46bfdf4d045d171b6, type: 3}
+    - clipName: crimson_underground
+      clips:
+      - {fileID: 8300000, guid: 51daa53da14678a4290edc53b0af4fbd, type: 3}
+    - clipName: crimson_chasm
+      clips:
+      - {fileID: 8300000, guid: b0d927a2c45ff0342b5e707b9b504344, type: 3}
+    - clipName: bloodMoon
+      clips:
+      - {fileID: 8300000, guid: 2e6ed4133a096dc43ba869774457fd7b, type: 3}
+    - clipName: BloodCrawlers
+      clips:
+      - {fileID: 8300000, guid: fc275a3968fa5a34c8fdacaf622a954b, type: 3}
+    - clipName: Boss1
+      clips:
+      - {fileID: 8300000, guid: 214717c1c22c14f44b3c3afd5509755d, type: 3}
+--- !u!82 &7214436456076511905
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3016108471310190910}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 1430452198118384198, guid: 10d7bbcb16c537641bb622a59e4d2ac5,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &5288083256878004055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5424089522683618092}
+  - component: {fileID: 3825377276778783126}
+  m_Layer: 0
+  m_Name: SceneMgr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5424089522683618092
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5288083256878004055}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1737542228716694334}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3825377276778783126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5288083256878004055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64bdd766e40c3724c9685273ed3c790b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6471685513110674754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5058124910774833179}
+  - component: {fileID: 1429967706049342943}
+  m_Layer: 0
+  m_Name: MonoController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5058124910774833179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6471685513110674754}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1737542228716694334}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1429967706049342943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6471685513110674754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eea481e34dfe4441b496af5b4139276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,0 +1,244 @@
+fileFormatVersion: 2
+guid: 178b518874d61f742987e02b2d8374aa
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Steve(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SimplePlayer.arma
+      parentName: Steve(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 62.0354, y: 62.0354, z: 62.0354}
+    - name: MAIN
+      parentName: SimplePlayer.arma
+      position: {x: -0, y: 0, z: -0.0039268495}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: center
+      parentName: MAIN
+      position: {x: -0, y: -0.0000000023841857, z: 0.016119828}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body
+      parentName: center
+      position: {x: -0, y: 5.9604643e-10, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chest
+      parentName: Body
+      position: {x: -0, y: 0.0060000014, z: -1.2434498e-16}
+      rotation: {x: 1.8197973e-23, y: 0.000000023283064, z: 0.000000023283059, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: Chest
+      position: {x: -1.5654217e-16, y: 0.006, z: 5.376602e-16}
+      rotation: {x: 4.135903e-23, y: -0.000000023283064, z: -0.000000023283063, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head_end
+      parentName: Head
+      position: {x: 2.1814666e-18, y: 0.008000001, z: 3.0198067e-16}
+      rotation: {x: 4.7019774e-38, y: 1.9984012e-15, z: 1.9984014e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head_end_end
+      parentName: Head_end
+      position: {x: -0, y: 0.007999999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm:Left:Upper
+      parentName: Chest
+      position: {x: -0.0059999996, y: 0.0039999974, z: -1.09327214e-10}
+      rotation: {x: 0.71018547, y: -0.7040147, z: 0.00000034436087, w: -0.0000003442172}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm:Left:Lower
+      parentName: Arm:Left:Upper
+      position: {x: -4.02432e-10, y: 0.0039999965, z: -7.105427e-17}
+      rotation: {x: 7.9250825e-15, y: -0.00000004569557, z: -0.00000012572863, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Arm:Left:Lower_end
+      parentName: Arm:Left:Lower
+      position: {x: -6.217249e-17, y: 0.005999999, z: -8.8817837e-17}
+      rotation: {x: -1.0658141e-14, y: 2.6645357e-15, z: 1.4823077e-21, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm:Left:Lower_end_end
+      parentName: Arm:Left:Lower_end
+      position: {x: -0, y: 0.006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm:Right:Upper
+      parentName: Chest
+      position: {x: 0.0060000005, y: 0.003999997, z: 1.0932808e-10}
+      rotation: {x: 0.7101854, y: 0.7040148, z: -0.0000002516857, w: 0.0000004634266}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm:Right:Lower
+      parentName: Arm:Right:Upper
+      position: {x: -4.024329e-10, y: 0.0039999983, z: -1.4210854e-16}
+      rotation: {x: -6.28577e-15, y: -0.00000004569557, z: -0.00000012572866, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Arm:Right:Lower_end
+      parentName: Arm:Right:Lower
+      position: {x: -6.661338e-17, y: 0.005999999, z: -2.1316282e-16}
+      rotation: {x: 7.1054274e-15, y: 2.6645357e-15, z: -1.0587912e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm:Right:Lower_end_end
+      parentName: Arm:Right:Lower_end
+      position: {x: -0, y: 0.006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg:Right:Upper
+      parentName: center
+      position: {x: 0.0020000003, y: -0.0000000011920929, z: 0}
+      rotation: {x: -0.7071068, y: -0.00000005338509, z: 0.000000053385083, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg:Right:Lower
+      parentName: Leg:Right:Upper
+      position: {x: -6.8750557e-16, y: 0.0059999973, z: -2.842171e-16}
+      rotation: {x: 1.4210852e-14, y: 0.00000007549791, z: -1.4258434e-21, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Leg:Right:Lower_end
+      parentName: Leg:Right:Lower
+      position: {x: -1.490116e-10, y: 0.005999999, z: 2.668976e-16}
+      rotation: {x: -2.1316282e-14, y: -7.105429e-15, z: 6.9173923e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg:Right:Lower_end_end
+      parentName: Leg:Right:Lower_end
+      position: {x: -0, y: 0.005999999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg:Left:Upper
+      parentName: center
+      position: {x: -0.0020000003, y: 0.0000000035762786, z: 0}
+      rotation: {x: -0.7071068, y: -0.00000005338509, z: 0.000000053385083, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg:Left:Lower
+      parentName: Leg:Left:Upper
+      position: {x: 3.2474022e-17, y: 0.0059999973, z: 1.7763568e-17}
+      rotation: {x: -9.264422e-22, y: 0.00000007549791, z: -5.788106e-22, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Leg:Left:Lower_end
+      parentName: Leg:Left:Lower
+      position: {x: 1.4901161e-10, y: 0.005999999, z: -3.5971226e-17}
+      rotation: {x: -7.1054274e-15, y: -7.105429e-15, z: 6.9173903e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg:Left:Lower_end_end
+      parentName: Leg:Left:Lower_end
+      position: {x: -0, y: 0.005999999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SimplePlayer.Body.Layer2
+      parentName: Steve(Clone)
+      position: {x: 0.000000019073486, y: 0.37221247, z: -0.00000006064111}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 62.035404, y: 62.035404, z: 62.035404}
+    - name: SimplePlayer.Body.Layer1
+      parentName: Steve(Clone)
+      position: {x: 0.000000019073486, y: 0.37221247, z: -0.00000006064111}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 62.035404, y: 62.035404, z: 62.035404}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

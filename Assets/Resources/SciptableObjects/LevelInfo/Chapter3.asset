@@ -1,0 +1,304 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f11b219543fb8f428ff27927c288b90, type: 3}
+  m_Name: Chapter3
+  m_EditorClassIdentifier: 
+  levels:
+  - LevelName: 3_1
+    ExLevelNum: 0
+    LevelSceneName: Level3_1
+    LevelSceneName_hard: Level3_1
+    LevelSceneName_hell: Level3_1
+    GetItem_normal_first:
+    - type: 26
+      Count: 1
+      Durability: 1
+    GetItem_normal:
+    - type: 46
+      Count: 2
+      Durability: 1
+    GetItem_hard_first: []
+    GetItem_hard: []
+    GetItem_hell_first: []
+    GetItem_hell: []
+    Describe: "\u65E0\u6B62\u5883\u7684\u75AF\u72C2\uFF0C\u5728\u6084\u65E0\u58F0\u606F\u7684\u8513\u5EF6"
+    Describe_hard_ex: 
+    Describe_hell_ex: 
+  - LevelName: 3_2
+    ExLevelNum: 0
+    LevelSceneName: Level3_2
+    LevelSceneName_hard: Level3_2
+    LevelSceneName_hell: Level3_2
+    GetItem_normal_first:
+    - type: 26
+      Count: 1
+      Durability: 1
+    GetItem_normal:
+    - type: 76
+      Count: 3
+      Durability: 1
+    GetItem_hard_first:
+    - type: 26
+      Count: 1
+      Durability: 1
+    GetItem_hard:
+    - type: 11
+      Count: 2
+      Durability: 1
+    GetItem_hell_first: []
+    GetItem_hell: []
+    Describe: "\u8346\u68D8\u4E1B\u751F"
+    Describe_hard_ex: 
+    Describe_hell_ex: 
+  - LevelName: 3_3
+    ExLevelNum: 0
+    LevelSceneName: Level3_3
+    LevelSceneName_hard: Level3_3
+    LevelSceneName_hell: Level3_3
+    GetItem_normal_first:
+    - type: 26
+      Count: 1
+      Durability: 1
+    GetItem_normal:
+    - type: 68
+      Count: 3
+      Durability: 1
+    GetItem_hard_first:
+    - type: 26
+      Count: 1
+      Durability: 1
+    GetItem_hard:
+    - type: 6
+      Count: 3
+      Durability: 1
+    GetItem_hell_first: []
+    GetItem_hell:
+    - type: 0
+      Count: 0
+      Durability: 0
+    Describe: "\u5BCC\u8425\u517B\u6C34\u4F53"
+    Describe_hard_ex: 
+    Describe_hell_ex: 
+  - LevelName: 3_4
+    ExLevelNum: 1
+    LevelSceneName: Level3_4
+    LevelSceneName_hard: Level3_4
+    LevelSceneName_hell: Level3_4
+    GetItem_normal_first:
+    - type: 26
+      Count: 1
+      Durability: 1
+    GetItem_normal:
+    - type: 60
+      Count: 3
+      Durability: 1
+    GetItem_hard_first:
+    - type: 26
+      Count: 1
+      Durability: 1
+    GetItem_hard:
+    - type: 67
+      Count: 3
+      Durability: 1
+    GetItem_hell_first: []
+    GetItem_hell: []
+    Describe: "\u7A7A\u4E2D\u7BA1\u5236"
+    Describe_hard_ex: "\u968F\u673A\u690D\u7269"
+    Describe_hell_ex: 
+  - LevelName: 3_5
+    ExLevelNum: 1
+    LevelSceneName: Level3_5
+    LevelSceneName_hard: Level3_5
+    LevelSceneName_hell: Level3_5
+    GetItem_normal_first:
+    - type: 26
+      Count: 1
+      Durability: 1
+    GetItem_normal:
+    - type: 69
+      Count: 2
+      Durability: 1
+    GetItem_hard_first:
+    - type: 26
+      Count: 1
+      Durability: 1
+    GetItem_hard:
+    - type: 105
+      Count: 2
+      Durability: 1
+    GetItem_hell_first: []
+    GetItem_hell: []
+    Describe: "\u751F\u5316\u5371\u673A"
+    Describe_hard_ex: "\u9644\u52A0\u6761\u4EF6\uFF1A\u73A9\u5BB6\u65E0\u6CD5\u4F7F\u7528\u4EFB\u4F55\u7269\u54C1"
+    Describe_hell_ex: 
+  - LevelName: 3_6
+    ExLevelNum: 1
+    LevelSceneName: Level3_6
+    LevelSceneName_hard: Level3_6
+    LevelSceneName_hell: Level3_6
+    GetItem_normal_first:
+    - type: 26
+      Count: 1
+      Durability: 1
+    GetItem_normal:
+    - type: 72
+      Count: 2
+      Durability: 1
+    GetItem_hard_first:
+    - type: 26
+      Count: 1
+      Durability: 1
+    GetItem_hard:
+    - type: 61
+      Count: 3
+      Durability: 1
+    GetItem_hell_first: []
+    GetItem_hell: []
+    Describe: "\u7206\u7834\u5371\u673A"
+    Describe_hard_ex: "\u9644\u52A0\u6761\u4EF6\uFF1A\u654C\u4EBA\u79FB\u52A8\u901F\u5EA6\u53D8\u4E3A60%\uFF0C\u4F46\u8840\u91CF\u53D8\u4E3A200%"
+    Describe_hell_ex: 
+  - LevelName: 3_7
+    ExLevelNum: 0
+    LevelSceneName: Level3_7
+    LevelSceneName_hard: Level3_7
+    LevelSceneName_hell: Level3_7
+    GetItem_normal_first:
+    - type: 26
+      Count: 1
+      Durability: 1
+    - type: 98
+      Count: 1
+      Durability: 30
+    GetItem_normal:
+    - type: 84
+      Count: 2
+      Durability: 1
+    GetItem_hard_first:
+    - type: 26
+      Count: 1
+      Durability: 1
+    GetItem_hard:
+    - type: 13
+      Count: 5
+      Durability: 1
+    GetItem_hell_first: []
+    GetItem_hell: []
+    Describe: "\u65E0\u5C3D\u9ED1\u6697"
+    Describe_hard_ex: 
+    Describe_hell_ex: 
+  - LevelName: 3_8
+    ExLevelNum: 0
+    LevelSceneName: Level3_8
+    LevelSceneName_hard: Level3_8
+    LevelSceneName_hell: Level3_8
+    GetItem_normal_first:
+    - type: 26
+      Count: 1
+      Durability: 1
+    GetItem_normal:
+    - type: 77
+      Count: 2
+      Durability: 1
+    GetItem_hard_first:
+    - type: 26
+      Count: 1
+      Durability: 1
+    GetItem_hard:
+    - type: 13
+      Count: 5
+      Durability: 1
+    GetItem_hell_first: []
+    GetItem_hell: []
+    Describe: "\u8150\u8D25\u9A91\u58EB"
+    Describe_hard_ex: 
+    Describe_hell_ex: 
+  - LevelName: 3_9
+    ExLevelNum: 0
+    LevelSceneName: Level3_9
+    LevelSceneName_hard: Level3_9
+    LevelSceneName_hell: Level3_9
+    GetItem_normal_first:
+    - type: 26
+      Count: 1
+      Durability: 1
+    GetItem_normal:
+    - type: 101
+      Count: 1
+      Durability: 1
+    GetItem_hard_first:
+    - type: 26
+      Count: 1
+      Durability: 1
+    GetItem_hard:
+    - type: 13
+      Count: 5
+      Durability: 1
+    GetItem_hell_first: []
+    GetItem_hell: []
+    Describe: "\u8113\u8840\u4FB5\u67D3"
+    Describe_hard_ex: 
+    Describe_hell_ex: 
+  - LevelName: 3_10
+    ExLevelNum: 1
+    LevelSceneName: Level3_10
+    LevelSceneName_hard: Level3_10
+    LevelSceneName_hell: Level3_10
+    GetItem_normal_first:
+    - type: 26
+      Count: 1
+      Durability: 1
+    GetItem_normal:
+    - type: 74
+      Count: 1
+      Durability: 1
+    GetItem_hard_first:
+    - type: 26
+      Count: 1
+      Durability: 1
+    GetItem_hard:
+    - type: 13
+      Count: 5
+      Durability: 1
+    GetItem_hell_first: []
+    GetItem_hell: []
+    Describe: "\u5DE8\u4EBA\u8DF5\u8E0F"
+    Describe_hard_ex: "\u9644\u52A0\u6761\u4EF6\uFF1A\u602A\u7269\u83B7\u5F97\u8D85\u5FEB\u653B\u901F"
+    Describe_hell_ex: 
+  - LevelName: 3_11
+    ExLevelNum: 1
+    LevelSceneName: Level3_11
+    LevelSceneName_hard: Level3_11
+    LevelSceneName_hell: Level3_11
+    GetItem_normal_first:
+    - type: 26
+      Count: 1
+      Durability: 1
+    - type: 65
+      Count: 1
+      Durability: 100
+    GetItem_normal:
+    - type: 78
+      Count: 3
+      Durability: 1
+    GetItem_hard_first:
+    - type: 26
+      Count: 1
+      Durability: 1
+    GetItem_hard:
+    - type: 26
+      Count: 1
+      Durability: 1
+    GetItem_hell_first: []
+    GetItem_hell: []
+    Describe: "\u6050\u60E7\u6DF1\u5904"
+    Describe_hard_ex: "\u9644\u52A0\u6761\u4EF6\uFF1A\u53D8\u4E3A\u81EA\u9009\u5361"
+    Describe_hell_ex: 

@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/ItemCreateTookit.uss?fileID=7433441132597879392&amp;guid=3629e882ff427914f80783c6a44a5262&amp;type=3#ItemCreateTookit" />
+    <ui:VisualElement name="Main" style="flex-grow: 1; background-color: rgb(103, 103, 103); -unity-background-image-tint-color: rgb(255, 255, 255);">
+        <ui:Label tabindex="-1" text="物品创建器" display-tooltip-when-elided="true" name="Title1" style="width: 348px; height: 52px; font-size: 32px; -unity-font: url(&apos;project://database/Assets/Materials/Font/Zpix.ttf?fileID=12800000&amp;guid=1d9a917c0f76095499250cd7a33ef005&amp;type=3#Zpix&apos;); -unity-font-style: bold;" />
+        <ui:IntegerField label="ItemType" value="0" name="ItemID" style="height: 41px;" />
+        <ui:TextField picking-mode="Ignore" label="ItemName" value="filler text" name="ItemName" />
+        <ui:VisualElement name="Down" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-wrap: nowrap; flex-direction: row;">
+            <ui:VisualElement name="Left" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 172px;">
+                <ui:IntegerField label="耐久" value="1" name="durability" />
+                <ui:IntegerField label="最大数量" value="64" name="maxAmount" />
+                <uie:ColorField label="Color" value="#FFFFFFFF" name="textColor" />
+                <uie:ObjectField label="Sprite" name="tarSprite" type="UnityEngine.Sprite, UnityEngine.CoreModule" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Right" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px;">
+                <ui:Button text="创建" display-tooltip-when-elided="true" name="Create" style="height: 27px;" />
+                <ui:Label tabindex="-1" text="删除" display-tooltip-when-elided="true" name="Label" />
+                <ui:VisualElement name="RDown" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                    <ui:Button text="删除" display-tooltip-when-elided="true" name="Delete" style="height: 22px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

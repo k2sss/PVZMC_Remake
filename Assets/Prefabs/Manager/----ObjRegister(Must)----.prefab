@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3809506035996700263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3809506035996700280}
+  - component: {fileID: 3809506035996700281}
+  m_Layer: 0
+  m_Name: ----ObjRegister(Must)----
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3809506035996700280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3809506035996700263}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25.495678, y: 24.878546, z: 10.024203}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3809506035996700281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3809506035996700263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f39d89a1fb52f748b43dc0624be6d95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ptype: 0
+  EType: 0
+  Itype: 0
+  plants:
+  - {fileID: 5381365983609941007, guid: ce197ec4a013ea6469ecfe06a2491c7c, type: 3}
+  - {fileID: 6795637852751168703, guid: 304a39df71f9c5c4292b42c34f6ffb51, type: 3}
+  enemys:
+  - {fileID: 3380739615355396194, guid: 38436a57d9fb09d4e9eaf3f62e53c9b5, type: 3}
+  items:
+  - type: 0
+    AnimationSprites:
+    - {fileID: 21300000, guid: 9ab61452886078a46a161b47d53caacf, type: 3}
+    AnimationGapTime: 0.4
+    MaxAmount: 64
+    MaxDurability: 1
+    prefab: {fileID: 0}
+    itemtexts: []
+  - type: 1
+    AnimationSprites:
+    - {fileID: 1038889663, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+    AnimationGapTime: 0.4
+    MaxAmount: 64
+    MaxDurability: 1
+    prefab: {fileID: 8064155242530493480, guid: 4f1ca30d5ab102443a3dd5592fad6216,
+      type: 3}
+    itemtexts:
+    - text: "\u8150\u8089"
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u8150\u70C2\u5473\u7684\u8FA3\u6761"
+      color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
+  - type: 2
+    AnimationSprites:
+    - {fileID: 1954726073, guid: 82ffd2ee0c0afb849b12c0e8eb7f789c, type: 3}
+    AnimationGapTime: 0.4
+    MaxAmount: 64
+    MaxDurability: 1
+    prefab: {fileID: 573034844841340906, guid: 88d4c6edffe718e4696b45889682ad50, type: 3}
+    itemtexts: []
+  buffs:
+  - type: 0
+    IsWork: 0

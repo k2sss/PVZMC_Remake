@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/BlockItemCreator.uss?fileID=7433441132597879392&amp;guid=93f9cb1ffdef0a14582718bfa0a13a37&amp;type=3#BlockItemCreator" />
+    <ui:EnumField label="ItemType" type="ItemType, Assembly-CSharp" name="ItemType" />
+    <uie:ObjectField label="Mat" name="Material" type="UnityEngine.Material, UnityEngine.CoreModule" style="height: 41px;" />
+    <uie:ObjectField label="Sprite" name="Sprite" type="UnityEngine.Sprite, UnityEngine.CoreModule" style="height: 51px;" />
+    <ui:TextField picking-mode="Ignore" label="ItemName" value="filler text" name="ItemName" />
+    <ui:IntegerField label="Amount" value="64" name="Amount" />
+    <ui:IntegerField label="Durability" value="1" name="Durability" />
+    <ui:Button text="Generate" display-tooltip-when-elided="true" name="Generate" />
+</ui:UXML>
